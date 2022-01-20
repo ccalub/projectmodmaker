@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Terra Owl",
     "mobLabel": "",
-    "mobModelName": "Chicken",
+    "mobModelName": "Modelcustom_model",
     "mobModelTexture": "owllighttexture.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.4,
