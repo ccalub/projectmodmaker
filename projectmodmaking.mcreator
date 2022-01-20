@@ -7,14 +7,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "project_mod_maker"
-    },
-    {
-      "name": "Aaaaaaaahhhh",
-      "type": "tab",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "aaaaaaaahhhh"
     }
   ],
   "variable_elements": [],
