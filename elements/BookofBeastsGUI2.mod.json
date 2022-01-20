@@ -20,8 +20,8 @@
           "width": 93,
           "height": 20,
           "name": "Previous Page",
-          "x": 76,
-          "y": 209
+          "x": 48,
+          "y": 199
         }
       },
       {
@@ -38,26 +38,6 @@
         }
       },
       {
-        "type": "image",
-        "data": {
-          "image": "owl.aplha1.0.png",
-          "use1Xscale": true,
-          "name": "owl.aplha1.0.png",
-          "x": 267,
-          "y": 0
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "output-onlinepngtools.png",
-          "use1Xscale": true,
-          "name": "output-onlinepngtools.png",
-          "x": -91,
-          "y": 92
-        }
-      },
-      {
         "type": "label",
         "data": {
           "text": "The Terra Owl can be tamed ",
@@ -66,8 +46,8 @@
             "falpha": 0.0
           },
           "name": "The Terra Owl can be tamed ",
-          "x": 60,
-          "y": 140
+          "x": 32,
+          "y": 88
         }
       },
       {
@@ -79,8 +59,8 @@
             "falpha": 0.0
           },
           "name": "by being fed a Nightcrawler.",
-          "x": 61,
-          "y": 151
+          "x": 32,
+          "y": 103
         }
       },
       {
@@ -92,8 +72,8 @@
             "falpha": 0.0
           },
           "name": "Nightcrawlers can be found",
-          "x": 62,
-          "y": 171
+          "x": 33,
+          "y": 119
         }
       },
       {
@@ -105,8 +85,28 @@
             "falpha": 0.0
           },
           "name": "when digging up large patches of dirt.",
+          "x": 29,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "output-onlinepngtools_81.png",
+          "use1Xscale": true,
+          "name": "output-onlinepngtools_81.png",
           "x": 60,
-          "y": 186
+          "y": -26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "output-onlinepngtools.png",
+          "use1Xscale": true,
+          "name": "output-onlinepngtools.png",
+          "x": -37,
+          "y": 92
         }
       }
     ],

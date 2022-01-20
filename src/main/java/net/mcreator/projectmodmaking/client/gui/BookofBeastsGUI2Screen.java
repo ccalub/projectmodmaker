@@ -56,11 +56,11 @@ public class BookofBeastsGUI2Screen extends AbstractContainerScreen<BookofBeasts
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/owl.aplha1.0.png"));
-		this.blit(ms, this.leftPos + 253, this.topPos + 9, 0, 0, 133, 238, 133, 238);
+		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/output-onlinepngtools_81.png"));
+		this.blit(ms, this.leftPos + 46, this.topPos + -16, 0, 0, 648, 339, 648, 339);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/output-onlinepngtools.png"));
-		this.blit(ms, this.leftPos + -104, this.topPos + 101, 0, 0, 800, 418, 800, 418);
+		this.blit(ms, this.leftPos + -50, this.topPos + 101, 0, 0, 800, 418, 800, 418);
 
 		RenderSystem.disableBlend();
 	}
@@ -82,10 +82,10 @@ public class BookofBeastsGUI2Screen extends AbstractContainerScreen<BookofBeasts
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "[Terra Owls]", 45, 14, -16777216);
-		this.font.draw(poseStack, "The Terra Owl can be tamed ", 46, 149, -16777216);
-		this.font.draw(poseStack, "by being fed a Nightcrawler.", 47, 160, -16777216);
-		this.font.draw(poseStack, "Nightcrawlers can be found", 48, 180, -16777216);
-		this.font.draw(poseStack, "when digging up large patches of dirt.", 46, 195, -16777216);
+		this.font.draw(poseStack, "The Terra Owl can be tamed ", 18, 97, -16777216);
+		this.font.draw(poseStack, "by being fed a Nightcrawler.", 18, 112, -16777216);
+		this.font.draw(poseStack, "Nightcrawlers can be found", 19, 128, -16777216);
+		this.font.draw(poseStack, "when digging up large patches of dirt.", 15, 142, -16777216);
 	}
 
 	@Override
@@ -98,7 +98,7 @@ public class BookofBeastsGUI2Screen extends AbstractContainerScreen<BookofBeasts
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 62, this.topPos + 218, 93, 20, new TextComponent("Previous Page"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 34, this.topPos + 208, 93, 20, new TextComponent("Previous Page"), e -> {
 			if (true) {
 				ProjectmodmakingMod.PACKET_HANDLER.sendToServer(new BookofBeastsGUI2ButtonMessage(0, x, y, z));
 				BookofBeastsGUI2ButtonMessage.handleButtonAction(entity, 0, x, y, z);
