@@ -34,6 +34,15 @@
       "locked_code": false,
       "registry_name": "bookof_beasts",
       "path": "~/Items"
+    },
+    {
+      "name": "BookofBeastsGUI",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bookof_beasts_gui",
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
