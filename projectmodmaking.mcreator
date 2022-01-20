@@ -52,6 +52,15 @@
       "locked_code": false,
       "registry_name": "terra_owl",
       "path": "~/Entities/Owls"
+    },
+    {
+      "name": "BookofBeastsGUI2",
+      "type": "gui",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bookof_beasts_gui_2",
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],

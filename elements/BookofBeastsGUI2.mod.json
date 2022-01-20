@@ -1,0 +1,118 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 400,
+    "height": 259,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Previous Page",
+          "width": 93,
+          "height": 20,
+          "name": "Previous Page",
+          "x": 76,
+          "y": 209
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "[Terra Owls]",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "[Terra Owls]",
+          "x": 59,
+          "y": 5
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "owl.aplha1.0.png",
+          "use1Xscale": true,
+          "name": "owl.aplha1.0.png",
+          "x": 267,
+          "y": 0
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "output-onlinepngtools.png",
+          "use1Xscale": true,
+          "name": "output-onlinepngtools.png",
+          "x": -91,
+          "y": 92
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The Terra Owl can be tamed ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "The Terra Owl can be tamed ",
+          "x": 60,
+          "y": 140
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "by being fed a Nightcrawler.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "by being fed a Nightcrawler.",
+          "x": 61,
+          "y": 151
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Nightcrawlers can be found",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Nightcrawlers can be found",
+          "x": 62,
+          "y": 171
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "when digging up large patches of dirt.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "when digging up large patches of dirt.",
+          "x": 60,
+          "y": 186
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

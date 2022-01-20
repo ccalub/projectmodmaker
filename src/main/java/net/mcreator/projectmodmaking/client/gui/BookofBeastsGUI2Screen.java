@@ -11,25 +11,25 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.projectmodmaking.world.inventory.BookofBeastsGUIMenu;
+import net.mcreator.projectmodmaking.world.inventory.BookofBeastsGUI2Menu;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class BookofBeastsGUIScreen extends AbstractContainerScreen<BookofBeastsGUIMenu> {
+public class BookofBeastsGUI2Screen extends AbstractContainerScreen<BookofBeastsGUI2Menu> {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
 
-	public BookofBeastsGUIScreen(BookofBeastsGUIMenu container, Inventory inventory, Component text) {
+	public BookofBeastsGUI2Screen(BookofBeastsGUI2Menu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 200;
-		this.imageHeight = 250;
+		this.imageWidth = 400;
+		this.imageHeight = 259;
 	}
 
 	@Override
@@ -37,7 +37,7 @@ public class BookofBeastsGUIScreen extends AbstractContainerScreen<BookofBeastsG
 		return true;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("projectmodmaking:textures/bookof_beasts_gui.png");
+	private static final ResourceLocation texture = new ResourceLocation("projectmodmaking:textures/bookof_beasts_gui_2.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
@@ -53,6 +53,13 @@ public class BookofBeastsGUIScreen extends AbstractContainerScreen<BookofBeastsG
 		RenderSystem.defaultBlendFunc();
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/owl.aplha1.0.png"));
+		this.blit(ms, this.leftPos + 253, this.topPos + 9, 0, 0, 133, 238, 133, 238);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/output-onlinepngtools.png"));
+		this.blit(ms, this.leftPos + -104, this.topPos + 101, 0, 0, 800, 418, 800, 418);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -72,16 +79,11 @@ public class BookofBeastsGUIScreen extends AbstractContainerScreen<BookofBeastsG
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "The Book of Beasts", 49, 10, -16777216);
-		this.font.draw(poseStack, "Within the contents of this ", 28, 58, -16777216);
-		this.font.draw(poseStack, " scripture you will learn about ", 14, 70, -16777216);
-		this.font.draw(poseStack, " the many beasts of the world", 20, 81, -16777216);
-		this.font.draw(poseStack, " and how to tame them.", 39, 93, -16777216);
-		this.font.draw(poseStack, "Behaviors of these beasts ", 32, 121, -16777216);
-		this.font.draw(poseStack, "~", 90, 106, -16777216);
-		this.font.draw(poseStack, " are unpredictable,", 46, 131, -16777216);
-		this.font.draw(poseStack, " and we are not responsible for any", 5, 143, -16777216);
-		this.font.draw(poseStack, "incidents reguarding beasts.", 24, 156, -16777216);
+		this.font.draw(poseStack, "[Terra Owls]", 45, 14, -16777216);
+		this.font.draw(poseStack, "The Terra Owl can be tamed ", 46, 149, -16777216);
+		this.font.draw(poseStack, "by being fed a Nightcrawler.", 47, 160, -16777216);
+		this.font.draw(poseStack, "Nightcrawlers can be found", 48, 180, -16777216);
+		this.font.draw(poseStack, "when digging up large patches of dirt.", 46, 195, -16777216);
 	}
 
 	@Override
@@ -94,7 +96,7 @@ public class BookofBeastsGUIScreen extends AbstractContainerScreen<BookofBeastsG
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 61, this.topPos + 188, 72, 20, new TextComponent("Next Page"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 62, this.topPos + 218, 93, 20, new TextComponent("Previous Page"), e -> {
 		}));
 	}
 }
