@@ -7,28 +7,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "project_mod_maker"
+    },
+    {
+      "name": "Aaaaaaaahhhh",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aaaaaaaahhhh"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "itemGroup.tabproject_mod_maker": "Project Mod Maker"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
-        "name": "Entities",
-        "children": []
-      },
-      {
-        "name": "Blocks",
-        "children": []
-      },
-      {
         "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Misc",
         "children": []
       },
       {
@@ -36,11 +38,15 @@
         "children": []
       },
       {
+        "name": "Entities",
+        "children": []
+      },
+      {
         "name": "Recipes",
         "children": []
       },
       {
-        "name": "Misc",
+        "name": "Blocks",
         "children": []
       }
     ]
