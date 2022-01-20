@@ -1,13 +1,49 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "ProjectModMaker",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "project_mod_maker"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "itemGroup.tabproject_mod_maker": "Project Mod Maker"
+    }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Entities",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Misc",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "projectmodmaking",
