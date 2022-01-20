@@ -15,7 +15,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ember_snail",
-      "path": "~/Entities/Passive"
+      "path": "~/Entities/Snails"
     },
     {
       "name": "Nightcrawler",
@@ -43,6 +43,15 @@
       "locked_code": false,
       "registry_name": "bookof_beasts_gui",
       "path": "~/Items"
+    },
+    {
+      "name": "TerraOwl",
+      "type": "livingentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terra_owl",
+      "path": "~/Entities/Owls"
     }
   ],
   "variable_elements": [],
@@ -52,6 +61,8 @@
       "item.projectmodmaking.ember_snail_spawn_egg": "Ember Snail Spawn Egg",
       "entity.projectmodmaking.ember_snail": "Ember Snail",
       "item.projectmodmaking.bookof_beasts": "Bookof Beasts",
+      "item.projectmodmaking.terra_owl_spawn_egg": "Terra Owl Spawn Egg",
+      "entity.projectmodmaking.terra_owl": "Terra Owl",
       "item.projectmodmaking.nightcrawler": "Nightcrawler"
     }
   },
@@ -74,11 +85,11 @@
         "name": "Entities",
         "children": [
           {
-            "name": "Hostile",
+            "name": "Snails",
             "children": []
           },
           {
-            "name": "Passive",
+            "name": "Owls",
             "children": []
           }
         ]
