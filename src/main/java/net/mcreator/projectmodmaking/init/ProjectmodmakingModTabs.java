@@ -13,7 +13,6 @@ import net.minecraft.world.item.CreativeModeTab;
 
 public class ProjectmodmakingModTabs {
 	public static CreativeModeTab TAB_PROJECT_MOD_MAKER;
-	public static CreativeModeTab TAB_AAAAAAAAHHHH;
 
 	public static void load() {
 		TAB_PROJECT_MOD_MAKER = new CreativeModeTab("tabproject_mod_maker") {
@@ -27,16 +26,5 @@ public class ProjectmodmakingModTabs {
 				return false;
 			}
 		};
-		TAB_AAAAAAAAHHHH = new CreativeModeTab("tabaaaaaaaahhhh") {
-			@Override
-			public ItemStack makeIcon() {
-				return new ItemStack(Blocks.AMETHYST_CLUSTER);
-			}
-
-			@OnlyIn(Dist.CLIENT)
-			public boolean hasSearchBar() {
-				return true;
-			}
-		}.setBackgroundSuffix("item_search.png");
 	}
 }
