@@ -15,34 +15,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ember_snail",
-      "path": "~/Entities/Snails"
-    },
-    {
-      "name": "Nightcrawler",
-      "type": "item",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "nightcrawler",
-      "path": "~/Items"
-    },
-    {
-      "name": "BookofBeasts",
-      "type": "item",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bookof_beasts",
-      "path": "~/Items"
-    },
-    {
-      "name": "BookofBeastsGUI",
-      "type": "gui",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bookof_beasts_gui",
-      "path": "~/Items"
+      "path": "~/Entities/Passive"
     },
     {
       "name": "TerraOwl",
@@ -54,45 +27,30 @@
       "path": "~/Entities/Owls"
     },
     {
+      "name": "BookofBeastsGUI",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bookof_beasts_gui",
+      "path": "~/Items"
+    },
+    {
+      "name": "Nightcrawler",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightcrawler",
+      "path": "~/Items"
+    },
+    {
       "name": "BookofBeastsGUI2",
       "type": "gui",
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bookof_beasts_gui_2",
-      "path": "~/Items"
-    },
-    {
-      "name": "OpenBookofBeastsP1",
-      "type": "procedure",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "open_bookof_beasts_p_1",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
       "path": "~/Items"
     },
     {
@@ -127,6 +85,48 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "BookofBeasts",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bookof_beasts",
+      "path": "~/Items"
+    },
+    {
+      "name": "OpenBookofBeastsP1",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_bookof_beasts_p_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -136,9 +136,7 @@
       "item.projectmodmaking.ember_snail_spawn_egg": "Ember Snail Spawn Egg",
       "entity.projectmodmaking.ember_snail": "Ember Snail",
       "item.projectmodmaking.bookof_beasts": "Bookof Beasts",
-      "item.projectmodmaking.terra_owl_spawn_egg": "Terra Owl Spawn Egg",
-      "entity.projectmodmaking.terra_owl": "Terra Owl",
-      "item.projectmodmaking.nightcrawler": "Nightcrawler"
+      "itemGroup.tabproject_mod_maker": "Project Mod Maker"
     }
   },
   "foldersRoot": {
@@ -160,11 +158,11 @@
         "name": "Entities",
         "children": [
           {
-            "name": "Snails",
+            "name": "Owls",
             "children": []
           },
           {
-            "name": "Owls",
+            "name": "Snails",
             "children": []
           }
         ]
