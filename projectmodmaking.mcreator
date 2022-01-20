@@ -1,9 +1,20 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Aaaaaaaahhhh",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aaaaaaaahhhh"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "itemGroup.tabaaaaaaaahhhh": "Aaaaaaaahhhh"
+    }
   },
   "foldersRoot": {
     "name": "~",
