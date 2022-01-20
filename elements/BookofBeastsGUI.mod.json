@@ -24,17 +24,6 @@
         }
       },
       {
-        "type": "button",
-        "data": {
-          "text": "Next Page",
-          "width": 72,
-          "height": 20,
-          "name": "Next Page",
-          "x": 175,
-          "y": 183
-        }
-      },
-      {
         "type": "label",
         "data": {
           "text": "Within the contents of this ",
@@ -149,6 +138,20 @@
           "name": "incidents reguarding beasts.",
           "x": 138,
           "y": 151
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next Page",
+          "onClick": {
+            "name": "OpenBookofBeastsP2"
+          },
+          "width": 72,
+          "height": 20,
+          "name": "Next Page",
+          "x": 175,
+          "y": 183
         }
       }
     ],
