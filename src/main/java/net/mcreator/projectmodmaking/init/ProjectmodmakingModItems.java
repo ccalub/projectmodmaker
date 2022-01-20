@@ -12,6 +12,8 @@ import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 
+import net.mcreator.projectmodmaking.item.NightcrawlerItem;
+
 import java.util.List;
 import java.util.ArrayList;
 
@@ -21,6 +23,7 @@ public class ProjectmodmakingModItems {
 	public static final Item EMBER_SNAIL = register(
 			new SpawnEggItem(ProjectmodmakingModEntities.EMBER_SNAIL, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
 					.setRegistryName("ember_snail_spawn_egg"));
+	public static final Item NIGHTCRAWLER = register(new NightcrawlerItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
