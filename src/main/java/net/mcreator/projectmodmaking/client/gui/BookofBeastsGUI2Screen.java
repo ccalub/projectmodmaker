@@ -81,7 +81,7 @@ public class BookofBeastsGUI2Screen extends AbstractContainerScreen<BookofBeasts
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "[Terra Owls]", 45, 14, -16777216);
+		this.font.draw(poseStack, "[Terra Owls]", 55, 13, -16777216);
 		this.font.draw(poseStack, "The Terra Owl can be tamed ", 17, 33, -16777216);
 		this.font.draw(poseStack, "by being fed a Nightcrawler.", 8, 46, -16777216);
 		this.font.draw(poseStack, "Nightcrawlers can be found", 16, 77, -16777216);

@@ -12,16 +12,15 @@
       "name": "EmberSnail",
       "type": "livingentity",
       "sortid": 2,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
-      "registry_name": "ember_snail",
-      "path": "~/Entities/Passive"
+      "registry_name": "ember_snail"
     },
     {
       "name": "TerraOwl",
       "type": "livingentity",
       "sortid": 6,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "terra_owl",
       "path": "~/Entities/Owls"
@@ -99,7 +98,7 @@
       "name": "OpenBookofBeastsP1",
       "type": "procedure",
       "sortid": 7,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "open_bookof_beasts_p_1",
       "metadata": {
@@ -136,6 +135,7 @@
       "item.projectmodmaking.ember_snail_spawn_egg": "Ember Snail Spawn Egg",
       "entity.projectmodmaking.ember_snail": "Ember Snail",
       "item.projectmodmaking.bookof_beasts": "Bookof Beasts",
+      "item.projectmodmaking.nightcrawler": "Nightcrawler",
       "itemGroup.tabproject_mod_maker": "Project Mod Maker"
     }
   },

@@ -1,6 +1,22 @@
 package net.mcreator.projectmodmaking.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraftforge.fmllegacy.network.NetworkHooks;
+
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.MenuProvider;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.network.chat.TextComponent;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.projectmodmaking.world.inventory.BookofBeastsGUI2Menu;
+
+import io.netty.buffer.Unpooled;
 
 public class OpenBookofBeastsP2Procedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
