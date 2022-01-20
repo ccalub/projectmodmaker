@@ -13,10 +13,13 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.monster.Monster;
+import net.minecraft.world.entity.ai.navigation.PathNavigation;
+import net.minecraft.world.entity.ai.navigation.FlyingPathNavigation;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
+import net.minecraft.world.entity.ai.control.FlyingMoveControl;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacements;
@@ -48,11 +51,17 @@ public class EmberSnailEntity extends Monster {
 		super(type, world);
 		xpReward = 1;
 		setNoAi(false);
+		this.moveControl = new FlyingMoveControl(this, 10, true);
 	}
 
 	@Override
 	public Packet<?> getAddEntityPacket() {
 		return NetworkHooks.getEntitySpawningPacket(this);
+	}
+
+	@Override
+	protected PathNavigation createNavigation(Level world) {
+		return new FlyingPathNavigation(this, world);
 	}
 
 	@Override
@@ -89,6 +98,25 @@ public class EmberSnailEntity extends Monster {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
 	}
 
+	@Override
+	public boolean causeFallDamage(float l, float d, DamageSource source) {
+		return false;
+	}
+
+	@Override
+	protected void checkFallDamage(double y, boolean onGroundIn, BlockState state, BlockPos pos) {
+	}
+
+	@Override
+	public void setNoGravity(boolean ignored) {
+		super.setNoGravity(true);
+	}
+
+	public void aiStep() {
+		super.aiStep();
+		this.setNoGravity(true);
+	}
+
 	public static void init() {
 		SpawnPlacements.register(ProjectmodmakingModEntities.EMBER_SNAIL, SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL
@@ -101,6 +129,7 @@ public class EmberSnailEntity extends Monster {
 		builder = builder.add(Attributes.MAX_HEALTH, 5);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 1);
+		builder = builder.add(Attributes.FLYING_SPEED, 0.1);
 		return builder;
 	}
 }

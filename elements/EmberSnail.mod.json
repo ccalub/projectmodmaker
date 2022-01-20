@@ -4,8 +4,8 @@
   "definition": {
     "mobName": "Ember Snail",
     "mobLabel": "",
-    "mobModelName": "Spider",
-    "mobModelTexture": "ember_snail.png",
+    "mobModelName": "Modeltirkys",
+    "mobModelTexture": "tirkyssnail_fire.png",
     "mobModelGlowTexture": "",
     "modelWidth": 1.4,
     "modelHeight": 0.9,
@@ -13,15 +13,15 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -1,
+      "value": -37632,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -1,
+      "value": -46336,
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:ProjectModMaker"
     },
     "isBoss": false,
     "bossBarColor": "PINK",
@@ -55,7 +55,7 @@
     "health": 5,
     "xpAmount": 1,
     "waterMob": false,
-    "flyingMob": false,
+    "flyingMob": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
