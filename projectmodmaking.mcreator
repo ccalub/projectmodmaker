@@ -12,7 +12,7 @@
       "name": "EmberSnail",
       "type": "livingentity",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "ember_snail"
     },
@@ -20,7 +20,7 @@
       "name": "TerraOwl",
       "type": "livingentity",
       "sortid": 6,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "terra_owl",
       "path": "~/Entities/Owls"
@@ -98,7 +98,7 @@
       "name": "OpenBookofBeastsP1",
       "type": "procedure",
       "sortid": 7,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "open_bookof_beasts_p_1",
       "metadata": {

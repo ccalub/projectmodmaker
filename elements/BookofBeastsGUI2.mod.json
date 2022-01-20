@@ -20,8 +20,8 @@
           "width": 93,
           "height": 20,
           "name": "Previous Page",
-          "x": 60,
-          "y": 197
+          "x": 165,
+          "y": 209
         }
       },
       {
@@ -33,70 +33,109 @@
             "falpha": 0.0
           },
           "name": "[Terra Owls]",
-          "x": 69,
-          "y": 4
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "The Terra Owl can be tamed ",
-          "color": {
-            "value": -16777216,
-            "falpha": 0.0
-          },
-          "name": "The Terra Owl can be tamed ",
-          "x": 31,
-          "y": 24
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "by being fed a Nightcrawler.",
-          "color": {
-            "value": -16777216,
-            "falpha": 0.0
-          },
-          "name": "by being fed a Nightcrawler.",
-          "x": 22,
-          "y": 37
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Nightcrawlers can be found",
-          "color": {
-            "value": -16777216,
-            "falpha": 0.0
-          },
-          "name": "Nightcrawlers can be found",
-          "x": 30,
-          "y": 68
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "when digging up large patches of dirt.",
-          "color": {
-            "value": -16777216,
-            "falpha": 0.0
-          },
-          "name": "when digging up large patches of dirt.",
-          "x": 21,
-          "y": 81
+          "x": 173,
+          "y": 6
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "output-onlinepngtools_81.png",
-          "use1Xscale": true,
-          "name": "output-onlinepngtools_81.png",
-          "x": 56,
-          "y": -33
+          "image": "untitled_01-20-2022_04-57-16_1.png",
+          "use1Xscale": false,
+          "name": "untitled_01-20-2022_04-57-16_1.png",
+          "x": 143,
+          "y": 58
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Terra Owls are passive creatures that can be easily be found in any ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Terra Owls are passive creatures that can be easily be found in any ",
+          "x": 29,
+          "y": 21
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": " overworld forest biome.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": " overworld forest biome.",
+          "x": 24,
+          "y": 34
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "They are nimble creatures that are able to fly ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "They are nimble creatures that are able to fly ",
+          "x": 149,
+          "y": 34
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "without taking any fall damage when they land or fall.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "without taking any fall damage when they land or fall.",
+          "x": 32,
+          "y": 47
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Terra Owls can ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Terra Owls can ",
+          "x": 315,
+          "y": 47
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "be tamed by being fed a \"Nightcrawler\". Nightcrawlers can be ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "be tamed by being fed a \"Nightcrawler\". Nightcrawlers can be ",
+          "x": 50,
+          "y": 59
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "obtained when a player digs up large amounts of dirt within an area.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "obtained when a player digs up large amounts of dirt within an area.",
+          "x": 37,
+          "y": 72
         }
       },
       {
@@ -105,8 +144,21 @@
           "image": "output-onlinepngtools.png",
           "use1Xscale": true,
           "name": "output-onlinepngtools.png",
-          "x": -26,
-          "y": 42
+          "x": 79,
+          "y": 93
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Nightcrawler",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Nightcrawler",
+          "x": 179,
+          "y": 192
         }
       }
     ],

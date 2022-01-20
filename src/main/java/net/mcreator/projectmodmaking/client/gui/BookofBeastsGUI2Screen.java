@@ -56,11 +56,11 @@ public class BookofBeastsGUI2Screen extends AbstractContainerScreen<BookofBeasts
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/output-onlinepngtools_81.png"));
-		this.blit(ms, this.leftPos + 42, this.topPos + -23, 0, 0, 648, 339, 648, 339);
+		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/untitled_01-20-2022_04-57-16_1.png"));
+		this.blit(ms, this.leftPos + 129, this.topPos + 67, 0, 0, 128, 128, 128, 128);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/output-onlinepngtools.png"));
-		this.blit(ms, this.leftPos + -39, this.topPos + 51, 0, 0, 800, 418, 800, 418);
+		this.blit(ms, this.leftPos + 65, this.topPos + 102, 0, 0, 800, 418, 800, 418);
 
 		RenderSystem.disableBlend();
 	}
@@ -81,11 +81,15 @@ public class BookofBeastsGUI2Screen extends AbstractContainerScreen<BookofBeasts
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "[Terra Owls]", 55, 13, -16777216);
-		this.font.draw(poseStack, "The Terra Owl can be tamed ", 17, 33, -16777216);
-		this.font.draw(poseStack, "by being fed a Nightcrawler.", 8, 46, -16777216);
-		this.font.draw(poseStack, "Nightcrawlers can be found", 16, 77, -16777216);
-		this.font.draw(poseStack, "when digging up large patches of dirt.", 7, 90, -16777216);
+		this.font.draw(poseStack, "[Terra Owls]", 159, 15, -16777216);
+		this.font.draw(poseStack, "Terra Owls are passive creatures that can be easily be found in any ", 15, 30, -16777216);
+		this.font.draw(poseStack, " overworld forest biome.", 10, 43, -16777216);
+		this.font.draw(poseStack, "They are nimble creatures that are able to fly ", 135, 43, -16777216);
+		this.font.draw(poseStack, "without taking any fall damage when they land or fall.", 18, 56, -16777216);
+		this.font.draw(poseStack, "Terra Owls can ", 301, 56, -16777216);
+		this.font.draw(poseStack, "be tamed by being fed a \"Nightcrawler\". Nightcrawlers can be ", 36, 68, -16777216);
+		this.font.draw(poseStack, "obtained when a player digs up large amounts of dirt within an area.", 23, 81, -16777216);
+		this.font.draw(poseStack, "Nightcrawler", 165, 201, -16777216);
 	}
 
 	@Override
@@ -98,7 +102,7 @@ public class BookofBeastsGUI2Screen extends AbstractContainerScreen<BookofBeasts
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 46, this.topPos + 206, 93, 20, new TextComponent("Previous Page"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 151, this.topPos + 218, 93, 20, new TextComponent("Previous Page"), e -> {
 			if (true) {
 				ProjectmodmakingMod.PACKET_HANDLER.sendToServer(new BookofBeastsGUI2ButtonMessage(0, x, y, z));
 				BookofBeastsGUI2ButtonMessage.handleButtonAction(entity, 0, x, y, z);
