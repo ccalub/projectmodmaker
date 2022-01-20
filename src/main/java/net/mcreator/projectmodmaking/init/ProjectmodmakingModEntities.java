@@ -14,7 +14,6 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
-import net.mcreator.projectmodmaking.entity.LightOwlEntity;
 import net.mcreator.projectmodmaking.entity.EmberSnailEntity;
 
 import java.util.List;
@@ -26,9 +25,6 @@ public class ProjectmodmakingModEntities {
 	public static final EntityType<EmberSnailEntity> EMBER_SNAIL = register("ember_snail",
 			EntityType.Builder.<EmberSnailEntity>of(EmberSnailEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EmberSnailEntity::new).fireImmune().sized(1.4f, 0.9f));
-	public static final EntityType<LightOwlEntity> LIGHT_OWL = register("light_owl",
-			EntityType.Builder.<LightOwlEntity>of(LightOwlEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
-					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LightOwlEntity::new).sized(0.6f, 1.8f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		EntityType<T> entityType = (EntityType<T>) entityTypeBuilder.build(registryname).setRegistryName(registryname);
@@ -45,13 +41,11 @@ public class ProjectmodmakingModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			EmberSnailEntity.init();
-			LightOwlEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(EMBER_SNAIL, EmberSnailEntity.createAttributes().build());
-		event.put(LIGHT_OWL, LightOwlEntity.createAttributes().build());
 	}
 }

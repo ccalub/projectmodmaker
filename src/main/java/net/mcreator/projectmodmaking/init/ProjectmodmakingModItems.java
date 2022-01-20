@@ -21,9 +21,6 @@ public class ProjectmodmakingModItems {
 	public static final Item EMBER_SNAIL = register(
 			new SpawnEggItem(ProjectmodmakingModEntities.EMBER_SNAIL, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
 					.setRegistryName("ember_snail_spawn_egg"));
-	public static final Item LIGHT_OWL = register(
-			new SpawnEggItem(ProjectmodmakingModEntities.LIGHT_OWL, -9808060, -12766687, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
-					.setRegistryName("light_owl_spawn_egg"));
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
