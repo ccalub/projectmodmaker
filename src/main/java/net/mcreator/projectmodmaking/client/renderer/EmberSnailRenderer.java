@@ -3,14 +3,13 @@ package net.mcreator.projectmodmaking.client.renderer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.SpiderModel;
 
 import net.mcreator.projectmodmaking.entity.EmberSnailEntity;
+import net.mcreator.projectmodmaking.client.model.Modeltirkys;
 
-public class EmberSnailRenderer extends MobRenderer<EmberSnailEntity, SpiderModel<EmberSnailEntity>> {
+public class EmberSnailRenderer extends MobRenderer<EmberSnailEntity, Modeltirkys<EmberSnailEntity>> {
 	public EmberSnailRenderer(EntityRendererProvider.Context context) {
-		super(context, new SpiderModel(context.bakeLayer(ModelLayers.SPIDER)), 0.5f);
+		super(context, new Modeltirkys(context.bakeLayer(Modeltirkys.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override
