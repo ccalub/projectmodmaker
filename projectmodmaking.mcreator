@@ -31,7 +31,16 @@
       },
       {
         "name": "Entities",
-        "children": []
+        "children": [
+          {
+            "name": "Hostile",
+            "children": []
+          },
+          {
+            "name": "Passive",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Recipes",
