@@ -25,6 +25,15 @@
       "locked_code": false,
       "registry_name": "nightcrawler",
       "path": "~/Items"
+    },
+    {
+      "name": "BookofBeasts",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bookof_beasts",
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -33,6 +42,7 @@
     "en_us": {
       "item.projectmodmaking.ember_snail_spawn_egg": "Ember Snail Spawn Egg",
       "entity.projectmodmaking.ember_snail": "Ember Snail",
+      "item.projectmodmaking.bookof_beasts": "Bookof Beasts",
       "item.projectmodmaking.nightcrawler": "Nightcrawler"
     }
   },
