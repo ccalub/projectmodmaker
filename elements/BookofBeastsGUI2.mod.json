@@ -1,0 +1,121 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 400,
+    "height": 259,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Previous Page",
+          "onClick": {
+            "name": "OpenBookofBeastsP1"
+          },
+          "width": 93,
+          "height": 20,
+          "name": "Previous Page",
+          "x": 48,
+          "y": 199
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "[Terra Owls]",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "[Terra Owls]",
+          "x": 59,
+          "y": 5
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The Terra Owl can be tamed ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "The Terra Owl can be tamed ",
+          "x": 32,
+          "y": 88
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "by being fed a Nightcrawler.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "by being fed a Nightcrawler.",
+          "x": 32,
+          "y": 103
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Nightcrawlers can be found",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Nightcrawlers can be found",
+          "x": 33,
+          "y": 119
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "when digging up large patches of dirt.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "when digging up large patches of dirt.",
+          "x": 29,
+          "y": 133
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "output-onlinepngtools_81.png",
+          "use1Xscale": true,
+          "name": "output-onlinepngtools_81.png",
+          "x": 60,
+          "y": -26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "output-onlinepngtools.png",
+          "use1Xscale": true,
+          "name": "output-onlinepngtools.png",
+          "x": -37,
+          "y": 92
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 200,
+    "height": 250,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "The Book of Beasts",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "The Book of Beasts",
+          "x": 163,
+          "y": 5
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Within the contents of this ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Within the contents of this ",
+          "x": 142,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": " scripture you will learn about ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": " scripture you will learn about ",
+          "x": 128,
+          "y": 65
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": " the many beasts of the world",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": " the many beasts of the world",
+          "x": 134,
+          "y": 76
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": " and how to tame them.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": " and how to tame them.",
+          "x": 153,
+          "y": 88
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Behaviors of these beasts ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Behaviors of these beasts ",
+          "x": 146,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "~",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "~",
+          "x": 204,
+          "y": 101
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": " are unpredictable,",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": " are unpredictable,",
+          "x": 160,
+          "y": 126
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": " and we are not responsible for any",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": " and we are not responsible for any",
+          "x": 119,
+          "y": 138
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "incidents reguarding beasts.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "incidents reguarding beasts.",
+          "x": 138,
+          "y": 151
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next Page",
+          "onClick": {
+            "name": "OpenBookofBeastsP2"
+          },
+          "width": 72,
+          "height": 20,
+          "name": "Next Page",
+          "x": 175,
+          "y": 183
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
