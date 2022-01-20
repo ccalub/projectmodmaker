@@ -20,8 +20,8 @@
           "width": 93,
           "height": 20,
           "name": "Previous Page",
-          "x": 48,
-          "y": 199
+          "x": 60,
+          "y": 197
         }
       },
       {
@@ -46,8 +46,8 @@
             "falpha": 0.0
           },
           "name": "The Terra Owl can be tamed ",
-          "x": 32,
-          "y": 88
+          "x": 31,
+          "y": 24
         }
       },
       {
@@ -59,8 +59,8 @@
             "falpha": 0.0
           },
           "name": "by being fed a Nightcrawler.",
-          "x": 32,
-          "y": 103
+          "x": 22,
+          "y": 37
         }
       },
       {
@@ -72,8 +72,8 @@
             "falpha": 0.0
           },
           "name": "Nightcrawlers can be found",
-          "x": 33,
-          "y": 119
+          "x": 30,
+          "y": 68
         }
       },
       {
@@ -85,8 +85,8 @@
             "falpha": 0.0
           },
           "name": "when digging up large patches of dirt.",
-          "x": 29,
-          "y": 133
+          "x": 21,
+          "y": 81
         }
       },
       {
@@ -95,8 +95,8 @@
           "image": "output-onlinepngtools_81.png",
           "use1Xscale": true,
           "name": "output-onlinepngtools_81.png",
-          "x": 60,
-          "y": -26
+          "x": 56,
+          "y": -33
         }
       },
       {
@@ -105,8 +105,8 @@
           "image": "output-onlinepngtools.png",
           "use1Xscale": true,
           "name": "output-onlinepngtools.png",
-          "x": -37,
-          "y": 92
+          "x": -26,
+          "y": 42
         }
       }
     ],
