@@ -13,6 +13,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.projectmodmaking.block.FernBlock;
+import net.mcreator.projectmodmaking.block.ButtercupBlock;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -21,6 +22,7 @@ import java.util.ArrayList;
 public class ProjectmodmakingModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
 	public static final Block FERN = register(new FernBlock());
+	public static final Block BUTTERCUP = register(new ButtercupBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
@@ -37,6 +39,7 @@ public class ProjectmodmakingModBlocks {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			FernBlock.registerRenderLayer();
+			ButtercupBlock.registerRenderLayer();
 		}
 	}
 }

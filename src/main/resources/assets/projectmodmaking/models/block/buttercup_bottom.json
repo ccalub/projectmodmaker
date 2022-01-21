@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "projectmodmaking:blocks/stem",
+    "particle": "projectmodmaking:blocks/buittercup"
+  }
+}

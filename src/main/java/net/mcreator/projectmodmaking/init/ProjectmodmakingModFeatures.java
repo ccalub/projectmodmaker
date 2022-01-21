@@ -17,6 +17,7 @@ import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.core.Registry;
 
 import net.mcreator.projectmodmaking.world.features.plants.FernFeature;
+import net.mcreator.projectmodmaking.world.features.plants.ButtercupFeature;
 
 import java.util.Set;
 import java.util.Map;
@@ -28,6 +29,8 @@ public class ProjectmodmakingModFeatures {
 	static {
 		REGISTRY.put(FernFeature.FEATURE,
 				new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, FernFeature.GENERATE_BIOMES, FernFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(ButtercupFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, ButtercupFeature.GENERATE_BIOMES,
+				ButtercupFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

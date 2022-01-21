@@ -230,6 +230,15 @@
       "locked_code": false,
       "registry_name": "fern",
       "path": "~/Plants"
+    },
+    {
+      "name": "Buttercup",
+      "type": "plant",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buttercup",
+      "path": "~/Plants"
     }
   ],
   "variable_elements": [],
@@ -262,6 +271,7 @@
       "item.projectmodmaking.chitin_armor_leggings": "Chitin Leggings",
       "entity.projectmodmaking.orange_crab": "Orange Crab",
       "entity.projectmodmaking.green_crab": "Green Crab",
+      "block.projectmodmaking.buttercup": "Buttercup",
       "entity.projectmodmaking.red_crab": "Red Crab",
       "item.projectmodmaking.fire_chitin_armor_leggings": "Fire Chitin Leggings",
       "item.projectmodmaking.chitin": "Chitin"

@@ -60,6 +60,7 @@ public class ProjectmodmakingModItems {
 	public static final Item COOKED_CRAB_LEGS = register(new CookedCrabLegsItem());
 	public static final Item CRITTER_CATALOGUE = register(new CritterCatalogueItem());
 	public static final Item FERN = register(ProjectmodmakingModBlocks.FERN, CreativeModeTab.TAB_DECORATIONS);
+	public static final Item BUTTERCUP = register(ProjectmodmakingModBlocks.BUTTERCUP, CreativeModeTab.TAB_DECORATIONS);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

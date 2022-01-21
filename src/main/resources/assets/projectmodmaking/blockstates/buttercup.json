@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "projectmodmaking:block/buttercup"
+    },
+    "half=lower": {
+      "model": "projectmodmaking:block/buttercup_bottom"
+    }
+  }
+}
