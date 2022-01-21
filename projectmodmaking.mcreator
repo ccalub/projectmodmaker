@@ -176,8 +176,7 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "toad",
-      "path": "~/Entities/Toads"
+      "registry_name": "toad"
     }
   ],
   "variable_elements": [],
@@ -187,6 +186,8 @@
       "item.projectmodmaking.ember_snail_spawn_egg": "Ember Snail Spawn Egg",
       "entity.projectmodmaking.ember_snail": "Ember Snail",
       "item.projectmodmaking.bookof_beasts": "The Book of Beasts",
+      "item.projectmodmaking.toad_spawn_egg": "Toad Spawn Egg",
+      "entity.projectmodmaking.toad": "Toad",
       "item.projectmodmaking.terra_owl_spawn_egg": "Terra Owl Spawn Egg",
       "entity.projectmodmaking.terra_owl": "Terra Owl",
       "item.projectmodmaking.nightcrawler": "Nightcrawler",
