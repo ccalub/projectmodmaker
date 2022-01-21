@@ -2,6 +2,8 @@
   "item.projectmodmaking.ember_snail_spawn_egg": "Ember Snail Spawn Egg",
   "entity.projectmodmaking.ember_snail": "Ember Snail",
   "item.projectmodmaking.bookof_beasts": "Bookof Beasts",
+  "item.projectmodmaking.terra_owl_spawn_egg": "Terra Owl Spawn Egg",
+  "entity.projectmodmaking.terra_owl": "Terra Owl",
   "item.projectmodmaking.nightcrawler": "Nightcrawler",
   "itemGroup.tabproject_mod_maker": "Project Mod Maker"
 }

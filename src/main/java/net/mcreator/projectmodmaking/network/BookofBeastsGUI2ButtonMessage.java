@@ -13,6 +13,7 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.projectmodmaking.world.inventory.BookofBeastsGUI2Menu;
 import net.mcreator.projectmodmaking.procedures.OpenBookofBeastsP1Procedure;
+import net.mcreator.projectmodmaking.procedures.OpenBookofBeastsGUI3Procedure;
 import net.mcreator.projectmodmaking.ProjectmodmakingMod;
 
 import java.util.function.Supplier;
@@ -64,7 +65,7 @@ public class BookofBeastsGUI2ButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			OpenBookofBeastsP1Procedure.execute(world, x, y, z, entity);
+			OpenBookofBeastsGUI3Procedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 1) {
 

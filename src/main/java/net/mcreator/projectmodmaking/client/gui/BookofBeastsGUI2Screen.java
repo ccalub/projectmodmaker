@@ -56,14 +56,14 @@ public class BookofBeastsGUI2Screen extends AbstractContainerScreen<BookofBeasts
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/untitled_01-20-2022_04-57-16_1.png"));
-		this.blit(ms, this.leftPos + 132, this.topPos + 66, 0, 0, 128, 128, 128, 128);
-
 		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/leaf_2.png"));
-		this.blit(ms, this.leftPos + 17, this.topPos + 99, 0, 0, 128, 128, 128, 128);
+		this.blit(ms, this.leftPos + 40, this.topPos + 94, 0, 0, 128, 128, 128, 128);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/leaf_1.png"));
-		this.blit(ms, this.leftPos + 254, this.topPos + 97, 0, 0, 128, 128, 128, 128);
+		this.blit(ms, this.leftPos + 237, this.topPos + 96, 0, 0, 128, 128, 128, 128);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/owlowlowl.png"));
+		this.blit(ms, this.leftPos + 130, this.topPos + 97, 0, 0, 128, 128, 128, 128);
 
 		RenderSystem.disableBlend();
 	}
@@ -84,7 +84,7 @@ public class BookofBeastsGUI2Screen extends AbstractContainerScreen<BookofBeasts
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "[Terra Owls]", 159, 15, -16777216);
+		this.font.draw(poseStack, "[Terra Owls]", 162, 15, -16777216);
 		this.font.draw(poseStack, "Terra Owls are passive creatures that can be easily be found in any ", 15, 30, -16777216);
 		this.font.draw(poseStack, " overworld forest biome.", 10, 43, -16777216);
 		this.font.draw(poseStack, "They are nimble creatures that are able to fly ", 135, 43, -16777216);
@@ -92,7 +92,6 @@ public class BookofBeastsGUI2Screen extends AbstractContainerScreen<BookofBeasts
 		this.font.draw(poseStack, "Terra Owls can ", 301, 56, -16777216);
 		this.font.draw(poseStack, "be tamed by being fed a \"Nightcrawler\". Nightcrawlers can be ", 36, 68, -16777216);
 		this.font.draw(poseStack, "obtained when a player digs up large amounts of dirt within an area.", 23, 81, -16777216);
-		this.font.draw(poseStack, "Nightcrawler", 166, 201, -16777216);
 	}
 
 	@Override

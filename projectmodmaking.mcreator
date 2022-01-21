@@ -12,7 +12,7 @@
       "name": "EmberSnail",
       "type": "livingentity",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "ember_snail"
     },
@@ -20,7 +20,7 @@
       "name": "TerraOwl",
       "type": "livingentity",
       "sortid": 6,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "terra_owl",
       "path": "~/Entities/Owls"
@@ -32,7 +32,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bookof_beasts_gui",
-      "path": "~/Items"
+      "path": "~/Items/Book of Beasts"
     },
     {
       "name": "Nightcrawler",
@@ -50,7 +50,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bookof_beasts_gui_2",
-      "path": "~/Items"
+      "path": "~/Items/Book of Beasts"
     },
     {
       "name": "OpenBookofBeastsP2",
@@ -83,7 +83,7 @@
           }
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Book of Beasts"
     },
     {
       "name": "BookofBeasts",
@@ -92,7 +92,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bookof_beasts",
-      "path": "~/Items"
+      "path": "~/Items/Book of Beasts"
     },
     {
       "name": "OpenBookofBeastsP1",
@@ -125,7 +125,7 @@
           }
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Book of Beasts"
     },
     {
       "name": "BookofBeastsGUI3",
@@ -134,7 +134,40 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bookof_beasts_gui_3",
-      "path": "~/Items"
+      "path": "~/Items/Book of Beasts"
+    },
+    {
+      "name": "OpenBookofBeastsGUI3",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_bookof_beasts_gui_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Book of Beasts"
     }
   ],
   "variable_elements": [],
@@ -144,6 +177,8 @@
       "item.projectmodmaking.ember_snail_spawn_egg": "Ember Snail Spawn Egg",
       "entity.projectmodmaking.ember_snail": "Ember Snail",
       "item.projectmodmaking.bookof_beasts": "Bookof Beasts",
+      "item.projectmodmaking.terra_owl_spawn_egg": "Terra Owl Spawn Egg",
+      "entity.projectmodmaking.terra_owl": "Terra Owl",
       "item.projectmodmaking.nightcrawler": "Nightcrawler",
       "itemGroup.tabproject_mod_maker": "Project Mod Maker"
     }
@@ -153,7 +188,12 @@
     "children": [
       {
         "name": "Items",
-        "children": []
+        "children": [
+          {
+            "name": "Book of Beasts",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Misc",
