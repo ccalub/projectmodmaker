@@ -15,6 +15,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.projectmodmaking.entity.TerraOwlEntity;
+import net.mcreator.projectmodmaking.entity.RedCrabEntity;
 import net.mcreator.projectmodmaking.entity.EmberSnailEntity;
 
 import java.util.List;
@@ -29,6 +30,9 @@ public class ProjectmodmakingModEntities {
 	public static final EntityType<TerraOwlEntity> TERRA_OWL = register("terra_owl",
 			EntityType.Builder.<TerraOwlEntity>of(TerraOwlEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TerraOwlEntity::new).sized(0.4f, 0.7f));
+	public static final EntityType<RedCrabEntity> RED_CRAB = register("red_crab",
+			EntityType.Builder.<RedCrabEntity>of(RedCrabEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(3).setCustomClientFactory(RedCrabEntity::new).sized(1.4f, 0.9f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		EntityType<T> entityType = (EntityType<T>) entityTypeBuilder.build(registryname).setRegistryName(registryname);
@@ -46,6 +50,7 @@ public class ProjectmodmakingModEntities {
 		event.enqueueWork(() -> {
 			EmberSnailEntity.init();
 			TerraOwlEntity.init();
+			RedCrabEntity.init();
 		});
 	}
 
@@ -53,5 +58,6 @@ public class ProjectmodmakingModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(EMBER_SNAIL, EmberSnailEntity.createAttributes().build());
 		event.put(TERRA_OWL, TerraOwlEntity.createAttributes().build());
+		event.put(RED_CRAB, RedCrabEntity.createAttributes().build());
 	}
 }
