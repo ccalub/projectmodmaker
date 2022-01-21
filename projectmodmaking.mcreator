@@ -221,6 +221,15 @@
       "locked_code": false,
       "registry_name": "cooked_crab_legs",
       "path": "~/Food"
+    },
+    {
+      "name": "CritterCatalogue",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "critter_catalogue",
+      "path": "~/Items/Critter Catalogue"
     }
   ],
   "variable_elements": [],
@@ -238,6 +247,7 @@
       "item.projectmodmaking.fire_chitin": "Fire Chitin",
       "entity.projectmodmaking.terra_owl": "Terra Owl",
       "itemGroup.tabproject_mod_maker_2": "Critters",
+      "item.projectmodmaking.critter_catalogue": "Critter Catalogue",
       "item.projectmodmaking.fire_ant_l_arvae": "Fire Ant L arvae",
       "item.projectmodmaking.chitin_armor_chestplate": "Chitin Body",
       "item.projectmodmaking.fire_chitin_armor_boots": "Fire Chitin Boots",
@@ -265,6 +275,10 @@
         "children": [
           {
             "name": "Book of Beasts",
+            "children": []
+          },
+          {
+            "name": "Critter Catalogue",
             "children": []
           }
         ]

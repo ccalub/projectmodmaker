@@ -29,7 +29,7 @@ public class ProjectmodmakingModTabs {
 		TAB_PROJECT_MOD_MAKER_2 = new CreativeModeTab("tabproject_mod_maker_2") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(ProjectmodmakingModItems.ANT_LARVAE);
+				return new ItemStack(ProjectmodmakingModItems.CRITTER_CATALOGUE);
 			}
 
 			@OnlyIn(Dist.CLIENT)
