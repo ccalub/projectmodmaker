@@ -212,6 +212,15 @@
       "locked_code": false,
       "registry_name": "raw_crab_legs",
       "path": "~/Food"
+    },
+    {
+      "name": "CookedCrabLegs",
+      "type": "food",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_crab_legs",
+      "path": "~/Food"
     }
   ],
   "variable_elements": [],
@@ -232,6 +241,7 @@
       "item.projectmodmaking.fire_ant_l_arvae": "Fire Ant L arvae",
       "item.projectmodmaking.chitin_armor_chestplate": "Chitin Body",
       "item.projectmodmaking.fire_chitin_armor_boots": "Fire Chitin Boots",
+      "item.projectmodmaking.cooked_crab_legs": "Cooked Crab Legs",
       "item.projectmodmaking.orange_crab_spawn_egg": "Orange Crab Spawn Egg",
       "item.projectmodmaking.chitin_armor_helmet": "Chitin Helmet",
       "item.projectmodmaking.fire_chitin_armor_helmet": "Fire Chitin Helmet",

@@ -17,6 +17,7 @@ import net.mcreator.projectmodmaking.item.OpalItem;
 import net.mcreator.projectmodmaking.item.FireChitinItem;
 import net.mcreator.projectmodmaking.item.FireChitinArmorItem;
 import net.mcreator.projectmodmaking.item.FireAntLArvaeItem;
+import net.mcreator.projectmodmaking.item.CookedCrabLegsItem;
 import net.mcreator.projectmodmaking.item.ChitinItem;
 import net.mcreator.projectmodmaking.item.ChitinArmorItem;
 import net.mcreator.projectmodmaking.item.BookofBeastsItem;
@@ -55,6 +56,7 @@ public class ProjectmodmakingModItems {
 	public static final Item GREEN_CRAB = register(new SpawnEggItem(ProjectmodmakingModEntities.GREEN_CRAB, -3342439, -6711040,
 			new Item.Properties().tab(ProjectmodmakingModTabs.TAB_PROJECT_MOD_MAKER_2)).setRegistryName("green_crab_spawn_egg"));
 	public static final Item RAW_CRAB_LEGS = register(new RawCrabLegsItem());
+	public static final Item COOKED_CRAB_LEGS = register(new CookedCrabLegsItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
