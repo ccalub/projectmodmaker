@@ -160,8 +160,8 @@
       "item.projectmodmaking.fire_chitin_armor_helmet": "Fire Chitin Helmet",
       "item.projectmodmaking.ember_snail_spawn_egg": "Ember Snail Spawn Egg",
       "entity.projectmodmaking.ember_snail": "Ember Snail",
-      "item.projectmodmaking.fire_chitin_armor_chestplate": "Fire Chitin Chestplate",
       "item.projectmodmaking.bookof_beasts": "The Book of Beasts",
+      "item.projectmodmaking.fire_chitin_armor_chestplate": "Fire Chitin Chestplate",
       "item.projectmodmaking.terra_owl_spawn_egg": "Terra Owl Spawn Egg",
       "item.projectmodmaking.opal": "Opal",
       "item.projectmodmaking.ant_larvae": "Ant Larvae",
@@ -211,6 +211,10 @@
           },
           {
             "name": "Fish",
+            "children": []
+          },
+          {
+            "name": "Mythical Creatures",
             "children": []
           }
         ]

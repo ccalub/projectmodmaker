@@ -23,44 +23,52 @@ public class Modelcustom_model<T extends Entity> extends EntityModel<T> {
 	// the entity renderer and passed into this model's constructor
 	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation("projectmodmaking", "modelcustom_model"),
 			"main");
-	public final ModelPart wings;
-	public final ModelPart feet;
-	public final ModelPart bb_main;
+	public final ModelPart legs;
+	public final ModelPart mane;
 
 	public Modelcustom_model(ModelPart root) {
-		this.wings = root.getChild("wings");
-		this.feet = root.getChild("feet");
-		this.bb_main = root.getChild("bb_main");
+		this.legs = root.getChild("legs");
+		this.mane = root.getChild("mane");
 	}
 
 	public static LayerDefinition createBodyLayer() {
 		MeshDefinition meshdefinition = new MeshDefinition();
 		PartDefinition partdefinition = meshdefinition.getRoot();
-		PartDefinition wings = partdefinition.addOrReplaceChild("wings", CubeListBuilder.create(), PartPose.offset(0.0F, 24.0F, 0.0F));
-		PartDefinition rightwing_r1 = wings.addOrReplaceChild("rightwing_r1",
-				CubeListBuilder.create().texOffs(18, 19).addBox(4.0F, -11.0F, -2.2F, 1.0F, 9.0F, 6.0F, new CubeDeformation(0.0F)),
-				PartPose.offsetAndRotation(0.0F, 0.0F, 0.0F, -0.0436F, 0.0F, -0.0873F));
-		PartDefinition leftwing_r1 = wings.addOrReplaceChild("leftwing_r1",
-				CubeListBuilder.create().texOffs(0, 25).addBox(-5.0F, -11.0F, -2.2F, 1.0F, 9.0F, 6.0F, new CubeDeformation(0.0F)),
-				PartPose.offsetAndRotation(0.0F, 0.0F, 0.0F, -0.0436F, 0.0F, 0.0873F));
-		PartDefinition feet = partdefinition.addOrReplaceChild("feet",
-				CubeListBuilder.create().texOffs(0, 3).addBox(-2.5F, -2.0F, 0.6F, 1.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(0, 0)
-						.addBox(1.5F, -2.0F, 0.6F, 1.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(17, 1)
-						.addBox(0.5F, 0.0F, 1.6F, 3.0F, 0.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(17, 0)
-						.addBox(-3.5F, 0.0F, 1.6F, 3.0F, 0.0F, 1.0F, new CubeDeformation(0.0F)),
-				PartPose.offset(0.0F, 24.0F, 0.0F));
-		PartDefinition bb_main = partdefinition.addOrReplaceChild(
-				"bb_main", CubeListBuilder.create().texOffs(0, 13).addBox(-3.0F, -17.0F, -2.0F, 6.0F, 6.0F, 6.0F, new CubeDeformation(0.0F))
-						.texOffs(26, 17).addBox(-4.0F, -18.0F, 4.3F, 8.0F, 3.0F, 0.0F, new CubeDeformation(0.0F)),
-				PartPose.offset(0.0F, 24.0F, 0.0F));
-		PartDefinition tail_r1 = bb_main.addOrReplaceChild("tail_r1",
-				CubeListBuilder.create().texOffs(24, 0).addBox(-3.0F, -8.0F, -3.3F, 6.0F, 7.0F, 0.0F, new CubeDeformation(0.0F)).texOffs(0, 0)
-						.addBox(-3.0F, -9.0F, -2.8F, 6.0F, 7.0F, 6.0F, new CubeDeformation(0.2F)),
-				PartPose.offsetAndRotation(0.0F, 0.0F, 0.0F, -0.0436F, 0.0F, 0.0F));
-		PartDefinition scarf_r1 = bb_main.addOrReplaceChild("scarf_r1",
-				CubeListBuilder.create().texOffs(18, 7).addBox(-3.0F, -12.0F, -3.0F, 6.0F, 4.0F, 6.0F, new CubeDeformation(0.4F)),
-				PartPose.offsetAndRotation(0.0F, 0.0F, 0.0F, -0.0873F, 0.0F, 0.0F));
-		return LayerDefinition.create(meshdefinition, 64, 64);
+		PartDefinition legs = partdefinition.addOrReplaceChild("legs",
+				CubeListBuilder.create().texOffs(21, 13).addBox(-3.0F, -4.0F, 1.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(0, 0)
+						.addBox(-3.0F, 1.0F, 0.0F, 1.0F, -5.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(0, 0)
+						.addBox(0.0F, 1.0F, 0.0F, 1.0F, -5.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(0, 0)
+						.addBox(0.0F, 1.0F, 6.0F, 1.0F, -7.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(0, 0)
+						.addBox(-3.0F, 1.0F, 6.0F, 1.0F, -7.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(12, 17)
+						.addBox(0.0F, -4.0F, 1.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(20, 16)
+						.addBox(0.0F, -6.0F, 5.0F, 1.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(10, 20)
+						.addBox(-3.0F, -6.0F, 5.0F, 1.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)),
+				PartPose.offset(0.0F, 23.0F, -5.0F));
+		PartDefinition body = legs.addOrReplaceChild("body",
+				CubeListBuilder.create().texOffs(18, 0).addBox(-2.0F, -6.0F, 6.0F, 2.0F, 3.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(6, 17)
+						.addBox(-2.0F, -4.0F, 4.0F, 2.0F, 1.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 0)
+						.addBox(-2.0F, -6.0F, 0.0F, 2.0F, 2.0F, 6.0F, new CubeDeformation(0.0F)).texOffs(10, 0)
+						.addBox(-2.0F, -7.0F, 3.0F, 2.0F, 1.0F, 4.0F, new CubeDeformation(0.0F)).texOffs(11, 9)
+						.addBox(-2.0F, -8.0F, 6.0F, 2.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(0, 14)
+						.addBox(-2.0F, -13.0F, 7.0F, 2.0F, 9.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(6, 20)
+						.addBox(0.0F, -14.0F, 7.0F, 1.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(6, 14)
+						.addBox(-3.0F, -14.0F, 7.0F, 1.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(11, 11)
+						.addBox(-2.0F, -12.0F, 8.0F, 2.0F, 3.0F, 3.0F, new CubeDeformation(0.0F)).texOffs(0, 0)
+						.addBox(-2.0F, -9.0F, 8.0F, 2.0F, 3.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(0, 4)
+						.addBox(-2.0F, -10.0F, 11.0F, 2.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(10, 0)
+						.addBox(-1.5F, -15.0F, 8.0F, 1.0F, 3.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(0, 8)
+						.addBox(-3.0F, -7.0F, -1.0F, 4.0F, 3.0F, 3.0F, new CubeDeformation(0.0F)),
+				PartPose.offset(0.0F, 0.0F, 0.0F));
+		PartDefinition tail = legs.addOrReplaceChild("tail",
+				CubeListBuilder.create().texOffs(14, 17).addBox(-1.5F, -8.0F, -1.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(22, 11)
+						.addBox(-1.5F, -3.0F, 0.0F, 1.0F, -3.0F, -2.0F, new CubeDeformation(0.0F)).texOffs(19, 20)
+						.addBox(-1.5F, -3.0F, -2.0F, 1.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)),
+				PartPose.offset(0.0F, 0.0F, -1.0F));
+		PartDefinition mane = partdefinition.addOrReplaceChild(
+				"mane", CubeListBuilder.create().texOffs(16, 5).addBox(-3.0F, -12.0F, 6.0F, 4.0F, 4.0F, 1.0F, new CubeDeformation(0.0F))
+						.texOffs(18, 10).addBox(-3.0F, -9.0F, 7.0F, 1.0F, 3.0F, 1.0F, new CubeDeformation(0.0F)),
+				PartPose.offset(0.0F, 23.0F, -5.0F));
+		return LayerDefinition.create(meshdefinition, 32, 32);
 	}
 
 	@Override
@@ -70,8 +78,7 @@ public class Modelcustom_model<T extends Entity> extends EntityModel<T> {
 	@Override
 	public void renderToBuffer(PoseStack poseStack, VertexConsumer buffer, int packedLight, int packedOverlay, float red, float green, float blue,
 			float alpha) {
-		wings.render(poseStack, buffer, packedLight, packedOverlay);
-		feet.render(poseStack, buffer, packedLight, packedOverlay);
-		bb_main.render(poseStack, buffer, packedLight, packedOverlay);
+		legs.render(poseStack, buffer, packedLight, packedOverlay);
+		mane.render(poseStack, buffer, packedLight, packedOverlay);
 	}
 }
