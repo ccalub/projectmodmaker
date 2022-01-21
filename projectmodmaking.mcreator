@@ -214,6 +214,10 @@
           {
             "name": "Snails",
             "children": []
+          },
+          {
+            "name": "Fish",
+            "children": []
           }
         ]
       },
