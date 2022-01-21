@@ -4,5 +4,6 @@
   "item.projectmodmaking.bookof_beasts": "The Book of Beasts",
   "item.projectmodmaking.terra_owl_spawn_egg": "Terra Owl Spawn Egg",
   "entity.projectmodmaking.terra_owl": "Terra Owl",
-  "item.projectmodmaking.nightcrawler": "Nightcrawler"
+  "item.projectmodmaking.nightcrawler": "Nightcrawler",
+  "itemGroup.tabproject_mod_maker": "Project Mod Maker"
 }
