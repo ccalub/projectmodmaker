@@ -2,10 +2,10 @@
   "_fv": 24,
   "_type": "tab",
   "definition": {
-    "name": "Project Mod Maker",
+    "name": "Beasts",
     "icon": {
-      "value": "Blocks.AIR"
+      "value": "CUSTOM:BookofBeasts"
     },
-    "showSearch": false
+    "showSearch": true
   }
 }
