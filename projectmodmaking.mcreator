@@ -98,7 +98,7 @@
       "name": "OpenBookofBeastsP1",
       "type": "procedure",
       "sortid": 7,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "open_bookof_beasts_p_1",
       "metadata": {

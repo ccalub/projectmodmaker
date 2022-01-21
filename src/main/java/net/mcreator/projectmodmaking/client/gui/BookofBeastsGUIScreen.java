@@ -57,7 +57,7 @@ public class BookofBeastsGUIScreen extends AbstractContainerScreen<BookofBeastsG
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/tree.png"));
-		this.blit(ms, this.leftPos + 82, this.topPos + 26, 0, 0, 32, 32, 32, 32);
+		this.blit(ms, this.leftPos + 85, this.topPos + 28, 0, 0, 32, 32, 32, 32);
 
 		RenderSystem.disableBlend();
 	}
@@ -79,15 +79,15 @@ public class BookofBeastsGUIScreen extends AbstractContainerScreen<BookofBeastsG
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "The Book of Beasts", 49, 10, -16777216);
-		this.font.draw(poseStack, "Within the contents of this ", 28, 58, -16777216);
-		this.font.draw(poseStack, " scripture you will learn about ", 14, 70, -16777216);
-		this.font.draw(poseStack, " the many beasts of the world", 20, 81, -16777216);
-		this.font.draw(poseStack, " and how to tame them.", 39, 93, -16777216);
-		this.font.draw(poseStack, "Behaviors of these beasts ", 32, 121, -16777216);
-		this.font.draw(poseStack, "~", 90, 106, -16777216);
-		this.font.draw(poseStack, " are unpredictable,", 46, 131, -16777216);
-		this.font.draw(poseStack, " and we are not responsible for any", 5, 143, -16777216);
-		this.font.draw(poseStack, "incidents reguarding beasts.", 24, 156, -16777216);
+		this.font.draw(poseStack, "Within the contents of this ", 30, 63, -16777216);
+		this.font.draw(poseStack, " scripture you will learn about ", 15, 75, -16777216);
+		this.font.draw(poseStack, " the many beasts of the world", 20, 87, -16777216);
+		this.font.draw(poseStack, " and how to tame them.", 41, 98, -16777216);
+		this.font.draw(poseStack, "Behaviors of these beasts ", 39, 139, -16777216);
+		this.font.draw(poseStack, "~", 93, 119, -16777216);
+		this.font.draw(poseStack, " are unpredictable,", 49, 152, -16777216);
+		this.font.draw(poseStack, " and we are not responsible for any", 7, 166, -16777216);
+		this.font.draw(poseStack, "incidents reguarding beasts.", 27, 181, -16777216);
 	}
 
 	@Override
@@ -100,7 +100,7 @@ public class BookofBeastsGUIScreen extends AbstractContainerScreen<BookofBeastsG
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 61, this.topPos + 188, 72, 20, new TextComponent("Next Page"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 60, this.topPos + 208, 72, 20, new TextComponent("Next Page"), e -> {
 			if (true) {
 				ProjectmodmakingMod.PACKET_HANDLER.sendToServer(new BookofBeastsGUIButtonMessage(0, x, y, z));
 				BookofBeastsGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);

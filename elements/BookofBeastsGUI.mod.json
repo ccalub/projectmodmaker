@@ -32,8 +32,8 @@
             "falpha": 0.0
           },
           "name": "Within the contents of this ",
-          "x": 142,
-          "y": 53
+          "x": 144,
+          "y": 58
         }
       },
       {
@@ -45,8 +45,8 @@
             "falpha": 0.0
           },
           "name": " scripture you will learn about ",
-          "x": 128,
-          "y": 65
+          "x": 129,
+          "y": 70
         }
       },
       {
@@ -59,7 +59,7 @@
           },
           "name": " the many beasts of the world",
           "x": 134,
-          "y": 76
+          "y": 82
         }
       },
       {
@@ -71,8 +71,8 @@
             "falpha": 0.0
           },
           "name": " and how to tame them.",
-          "x": 153,
-          "y": 88
+          "x": 155,
+          "y": 93
         }
       },
       {
@@ -84,8 +84,8 @@
             "falpha": 0.0
           },
           "name": "Behaviors of these beasts ",
-          "x": 146,
-          "y": 116
+          "x": 153,
+          "y": 134
         }
       },
       {
@@ -97,8 +97,8 @@
             "falpha": 0.0
           },
           "name": "~",
-          "x": 204,
-          "y": 101
+          "x": 207,
+          "y": 114
         }
       },
       {
@@ -110,8 +110,8 @@
             "falpha": 0.0
           },
           "name": " are unpredictable,",
-          "x": 160,
-          "y": 126
+          "x": 163,
+          "y": 147
         }
       },
       {
@@ -123,8 +123,8 @@
             "falpha": 0.0
           },
           "name": " and we are not responsible for any",
-          "x": 119,
-          "y": 138
+          "x": 121,
+          "y": 161
         }
       },
       {
@@ -136,8 +136,8 @@
             "falpha": 0.0
           },
           "name": "incidents reguarding beasts.",
-          "x": 138,
-          "y": 151
+          "x": 141,
+          "y": 176
         }
       },
       {
@@ -150,8 +150,8 @@
           "width": 72,
           "height": 20,
           "name": "Next Page",
-          "x": 175,
-          "y": 183
+          "x": 174,
+          "y": 203
         }
       },
       {
@@ -160,8 +160,8 @@
           "image": "tree.png",
           "use1Xscale": true,
           "name": "tree.png",
-          "x": 196,
-          "y": 21
+          "x": 199,
+          "y": 23
         }
       }
     ],
