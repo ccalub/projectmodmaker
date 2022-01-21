@@ -1,8 +1,13 @@
 {
+  "item.projectmodmaking.chitin_armor_boots": "Chitin Boots",
   "item.projectmodmaking.ember_snail_spawn_egg": "Ember Snail Spawn Egg",
   "entity.projectmodmaking.ember_snail": "Ember Snail",
   "item.projectmodmaking.bookof_beasts": "The Book of Beasts",
+  "item.projectmodmaking.chitin_armor_leggings": "Chitin Leggings",
   "item.projectmodmaking.terra_owl_spawn_egg": "Terra Owl Spawn Egg",
   "entity.projectmodmaking.terra_owl": "Terra Owl",
-  "itemGroup.tabproject_mod_maker": "Project Mod Maker"
+  "item.projectmodmaking.chitin_armor_chestplate": "Chitin Body",
+  "item.projectmodmaking.chitin": "Chitin",
+  "itemGroup.tabproject_mod_maker": "Project Mod Maker",
+  "item.projectmodmaking.chitin_armor_helmet": "Chitin Helmet"
 }

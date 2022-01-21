@@ -12,6 +12,8 @@ import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 
+import net.mcreator.projectmodmaking.item.ChitinItem;
+import net.mcreator.projectmodmaking.item.ChitinArmorItem;
 import net.mcreator.projectmodmaking.item.BookofBeastsItem;
 
 import java.util.List;
@@ -27,6 +29,11 @@ public class ProjectmodmakingModItems {
 	public static final Item TERRA_OWL = register(
 			new SpawnEggItem(ProjectmodmakingModEntities.TERRA_OWL, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
 					.setRegistryName("terra_owl_spawn_egg"));
+	public static final Item CHITIN = register(new ChitinItem());
+	public static final Item CHITIN_ARMOR_HELMET = register(new ChitinArmorItem.Helmet());
+	public static final Item CHITIN_ARMOR_CHESTPLATE = register(new ChitinArmorItem.Chestplate());
+	public static final Item CHITIN_ARMOR_LEGGINGS = register(new ChitinArmorItem.Leggings());
+	public static final Item CHITIN_ARMOR_BOOTS = register(new ChitinArmorItem.Boots());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
