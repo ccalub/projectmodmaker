@@ -153,6 +153,16 @@
           "x": 175,
           "y": 183
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tree.png",
+          "use1Xscale": true,
+          "name": "tree.png",
+          "x": 196,
+          "y": 21
+        }
       }
     ],
     "gridSettings": {

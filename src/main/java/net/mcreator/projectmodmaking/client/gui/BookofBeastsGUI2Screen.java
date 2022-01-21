@@ -57,10 +57,16 @@ public class BookofBeastsGUI2Screen extends AbstractContainerScreen<BookofBeasts
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/untitled_01-20-2022_04-57-16_1.png"));
-		this.blit(ms, this.leftPos + 129, this.topPos + 67, 0, 0, 128, 128, 128, 128);
+		this.blit(ms, this.leftPos + 132, this.topPos + 66, 0, 0, 128, 128, 128, 128);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/output-onlinepngtools.png"));
-		this.blit(ms, this.leftPos + 65, this.topPos + 102, 0, 0, 800, 418, 800, 418);
+		this.blit(ms, this.leftPos + 66, this.topPos + 99, 0, 0, 800, 418, 800, 418);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/leaf_2.png"));
+		this.blit(ms, this.leftPos + 17, this.topPos + 99, 0, 0, 128, 128, 128, 128);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/leaf_1.png"));
+		this.blit(ms, this.leftPos + 254, this.topPos + 97, 0, 0, 128, 128, 128, 128);
 
 		RenderSystem.disableBlend();
 	}
@@ -89,7 +95,7 @@ public class BookofBeastsGUI2Screen extends AbstractContainerScreen<BookofBeasts
 		this.font.draw(poseStack, "Terra Owls can ", 301, 56, -16777216);
 		this.font.draw(poseStack, "be tamed by being fed a \"Nightcrawler\". Nightcrawlers can be ", 36, 68, -16777216);
 		this.font.draw(poseStack, "obtained when a player digs up large amounts of dirt within an area.", 23, 81, -16777216);
-		this.font.draw(poseStack, "Nightcrawler", 165, 201, -16777216);
+		this.font.draw(poseStack, "Nightcrawler", 166, 201, -16777216);
 	}
 
 	@Override

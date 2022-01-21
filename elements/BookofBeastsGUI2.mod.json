@@ -43,8 +43,8 @@
           "image": "untitled_01-20-2022_04-57-16_1.png",
           "use1Xscale": false,
           "name": "untitled_01-20-2022_04-57-16_1.png",
-          "x": 143,
-          "y": 58
+          "x": 146,
+          "y": 57
         }
       },
       {
@@ -144,8 +144,8 @@
           "image": "output-onlinepngtools.png",
           "use1Xscale": true,
           "name": "output-onlinepngtools.png",
-          "x": 79,
-          "y": 93
+          "x": 80,
+          "y": 90
         }
       },
       {
@@ -157,8 +157,28 @@
             "falpha": 0.0
           },
           "name": "Nightcrawler",
-          "x": 179,
+          "x": 180,
           "y": 192
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "leaf_2.png",
+          "use1Xscale": false,
+          "name": "leaf_2.png",
+          "x": 31,
+          "y": 90
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "leaf_1.png",
+          "use1Xscale": false,
+          "name": "leaf_1.png",
+          "x": 268,
+          "y": 88
         }
       }
     ],

@@ -55,6 +55,10 @@ public class BookofBeastsGUIScreen extends AbstractContainerScreen<BookofBeastsG
 		RenderSystem.defaultBlendFunc();
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/tree.png"));
+		this.blit(ms, this.leftPos + 82, this.topPos + 26, 0, 0, 32, 32, 32, 32);
+
 		RenderSystem.disableBlend();
 	}
 
