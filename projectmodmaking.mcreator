@@ -169,6 +169,15 @@
         ]
       },
       "path": "~/Items/Book of Beasts"
+    },
+    {
+      "name": "Toad",
+      "type": "livingentity",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toad",
+      "path": "~/Entities/Toads"
     }
   ],
   "variable_elements": [],
