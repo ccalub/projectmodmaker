@@ -8,16 +8,18 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.projectmodmaking.item.OpalItem;
+import net.mcreator.projectmodmaking.item.FireChitinItem;
+import net.mcreator.projectmodmaking.item.FireChitinArmorItem;
+import net.mcreator.projectmodmaking.item.FireAntLArvaeItem;
 import net.mcreator.projectmodmaking.item.ChitinItem;
 import net.mcreator.projectmodmaking.item.ChitinArmorItem;
 import net.mcreator.projectmodmaking.item.BookofBeastsItem;
+import net.mcreator.projectmodmaking.item.AntLarvaeItem;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -38,15 +40,17 @@ public class ProjectmodmakingModItems {
 	public static final Item CHITIN_ARMOR_LEGGINGS = register(new ChitinArmorItem.Leggings());
 	public static final Item CHITIN_ARMOR_BOOTS = register(new ChitinArmorItem.Boots());
 	public static final Item OPAL = register(new OpalItem());
-	public static final Item OPAL_ORE = register(ProjectmodmakingModBlocks.OPAL_ORE, ProjectmodmakingModTabs.TAB_PROJECT_MOD_MAKER);
+	public static final Item ANT_LARVAE = register(new AntLarvaeItem());
+	public static final Item FIRE_CHITIN = register(new FireChitinItem());
+	public static final Item FIRE_CHITIN_ARMOR_HELMET = register(new FireChitinArmorItem.Helmet());
+	public static final Item FIRE_CHITIN_ARMOR_CHESTPLATE = register(new FireChitinArmorItem.Chestplate());
+	public static final Item FIRE_CHITIN_ARMOR_LEGGINGS = register(new FireChitinArmorItem.Leggings());
+	public static final Item FIRE_CHITIN_ARMOR_BOOTS = register(new FireChitinArmorItem.Boots());
+	public static final Item FIRE_ANT_L_ARVAE = register(new FireAntLArvaeItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
 		return item;
-	}
-
-	private static Item register(Block block, CreativeModeTab tab) {
-		return register(new BlockItem(block, new Item.Properties().tab(tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@SubscribeEvent
