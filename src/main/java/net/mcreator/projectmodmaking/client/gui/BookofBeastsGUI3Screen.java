@@ -12,6 +12,8 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.projectmodmaking.world.inventory.BookofBeastsGUI3Menu;
+import net.mcreator.projectmodmaking.network.BookofBeastsGUI3ButtonMessage;
+import net.mcreator.projectmodmaking.ProjectmodmakingMod;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
@@ -99,6 +101,10 @@ public class BookofBeastsGUI3Screen extends AbstractContainerScreen<BookofBeasts
 		this.addRenderableWidget(new Button(this.leftPos + 209, this.topPos + 199, 72, 20, new TextComponent("Next Page"), e -> {
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 108, this.topPos + 199, 93, 20, new TextComponent("Previous Page"), e -> {
+			if (true) {
+				ProjectmodmakingMod.PACKET_HANDLER.sendToServer(new BookofBeastsGUI3ButtonMessage(1, x, y, z));
+				BookofBeastsGUI3ButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
 		}));
 	}
 }
