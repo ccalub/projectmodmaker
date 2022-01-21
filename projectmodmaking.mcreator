@@ -184,16 +184,36 @@
         "ec": true
       },
       "path": "~/Items"
+    },
+    {
+      "name": "Opal",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal",
+      "path": "~/Items"
+    },
+    {
+      "name": "OpalOre",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opal_ore",
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.projectmodmaking.opal_ore": "Opal Ore",
       "item.projectmodmaking.ember_snail_spawn_egg": "Ember Snail Spawn Egg",
       "entity.projectmodmaking.ember_snail": "Ember Snail",
       "item.projectmodmaking.bookof_beasts": "The Book of Beasts",
       "item.projectmodmaking.terra_owl_spawn_egg": "Terra Owl Spawn Egg",
+      "item.projectmodmaking.opal": "Opal",
       "itemGroup.tabproject_mod_maker": "Project Mod Maker",
       "item.projectmodmaking.chitin_armor_boots": "Chitin Boots",
       "item.projectmodmaking.chitin_armor_leggings": "Chitin Leggings",
