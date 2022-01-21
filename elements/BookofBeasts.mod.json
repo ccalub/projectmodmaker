@@ -31,11 +31,8 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onRightClickedInAir": {
-      "name": "OpenBookofBeastsP1"
-    },
     "onRightClickedOnBlock": {
-      "name": "OpenBookofBeastsP1"
+      "name": "BookofBeastsRightClickedOnBlock"
     },
     "hasDispenseBehavior": false
   }

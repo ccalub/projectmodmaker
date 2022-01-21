@@ -8,14 +8,11 @@ import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionResult;
-import net.minecraft.world.InteractionHand;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.projectmodmaking.procedures.OpenBookofBeastsP1Procedure;
+import net.mcreator.projectmodmaking.procedures.BookofBeastsRightClickedOnBlockProcedure;
 
 import java.util.List;
 
@@ -37,21 +34,9 @@ public class BookofBeastsItem extends Item {
 	}
 
 	@Override
-	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
-		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		ItemStack itemstack = ar.getObject();
-		double x = entity.getX();
-		double y = entity.getY();
-		double z = entity.getZ();
-
-		OpenBookofBeastsP1Procedure.execute(world, x, y, z, entity);
-		return ar;
-	}
-
-	@Override
 	public InteractionResult useOn(UseOnContext context) {
 		InteractionResult retval = super.useOn(context);
-		OpenBookofBeastsP1Procedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(),
+		BookofBeastsRightClickedOnBlockProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(),
 				context.getClickedPos().getZ(), context.getPlayer());
 		return retval;
 	}

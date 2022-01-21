@@ -109,6 +109,48 @@
       "locked_code": false,
       "registry_name": "fire_ant_l_arvae",
       "path": "~/Items"
+    },
+    {
+      "name": "BookOfBeastsGUI",
+      "type": "gui",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book_of_beasts_gui",
+      "path": "~/Items/Book of Beasts"
+    },
+    {
+      "name": "BookofBeastsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bookof_beasts_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Book of Beasts"
     }
   ],
   "variable_elements": [],
@@ -118,8 +160,8 @@
       "item.projectmodmaking.fire_chitin_armor_helmet": "Fire Chitin Helmet",
       "item.projectmodmaking.ember_snail_spawn_egg": "Ember Snail Spawn Egg",
       "entity.projectmodmaking.ember_snail": "Ember Snail",
-      "item.projectmodmaking.bookof_beasts": "The Book of Beasts",
       "item.projectmodmaking.fire_chitin_armor_chestplate": "Fire Chitin Chestplate",
+      "item.projectmodmaking.bookof_beasts": "The Book of Beasts",
       "item.projectmodmaking.terra_owl_spawn_egg": "Terra Owl Spawn Egg",
       "item.projectmodmaking.opal": "Opal",
       "item.projectmodmaking.ant_larvae": "Ant Larvae",
