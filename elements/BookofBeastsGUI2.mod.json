@@ -13,15 +13,15 @@
       {
         "type": "button",
         "data": {
-          "text": "Previous Page",
+          "text": "Next Page",
           "onClick": {
             "name": "OpenBookofBeastsP1"
           },
           "width": 93,
           "height": 20,
-          "name": "Previous Page",
-          "x": 165,
-          "y": 209
+          "name": "Next Page",
+          "x": 216,
+          "y": 211
         }
       },
       {
@@ -139,16 +139,6 @@
         }
       },
       {
-        "type": "image",
-        "data": {
-          "image": "output-onlinepngtools.png",
-          "use1Xscale": true,
-          "name": "output-onlinepngtools.png",
-          "x": 80,
-          "y": 90
-        }
-      },
-      {
         "type": "label",
         "data": {
           "text": "Nightcrawler",
@@ -179,6 +169,20 @@
           "name": "leaf_1.png",
           "x": 268,
           "y": 88
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Previous Page",
+          "onClick": {
+            "name": "OpenBookofBeastsP1"
+          },
+          "width": 93,
+          "height": 20,
+          "name": "Previous Page",
+          "x": 114,
+          "y": 211
         }
       }
     ],

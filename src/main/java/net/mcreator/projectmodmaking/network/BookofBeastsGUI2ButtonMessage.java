@@ -66,6 +66,10 @@ public class BookofBeastsGUI2ButtonMessage {
 
 			OpenBookofBeastsP1Procedure.execute(world, x, y, z, entity);
 		}
+		if (buttonID == 1) {
+
+			OpenBookofBeastsP1Procedure.execute(world, x, y, z, entity);
+		}
 	}
 
 	@SubscribeEvent

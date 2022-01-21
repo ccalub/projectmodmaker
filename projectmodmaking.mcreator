@@ -126,6 +126,15 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "BookofBeastsGUI3",
+      "type": "gui",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bookof_beasts_gui_3",
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],

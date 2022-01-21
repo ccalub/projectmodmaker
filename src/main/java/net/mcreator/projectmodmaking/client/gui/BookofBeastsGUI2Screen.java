@@ -59,9 +59,6 @@ public class BookofBeastsGUI2Screen extends AbstractContainerScreen<BookofBeasts
 		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/untitled_01-20-2022_04-57-16_1.png"));
 		this.blit(ms, this.leftPos + 132, this.topPos + 66, 0, 0, 128, 128, 128, 128);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/output-onlinepngtools.png"));
-		this.blit(ms, this.leftPos + 66, this.topPos + 99, 0, 0, 800, 418, 800, 418);
-
 		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/leaf_2.png"));
 		this.blit(ms, this.leftPos + 17, this.topPos + 99, 0, 0, 128, 128, 128, 128);
 
@@ -108,10 +105,16 @@ public class BookofBeastsGUI2Screen extends AbstractContainerScreen<BookofBeasts
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 151, this.topPos + 218, 93, 20, new TextComponent("Previous Page"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 202, this.topPos + 220, 93, 20, new TextComponent("Next Page"), e -> {
 			if (true) {
 				ProjectmodmakingMod.PACKET_HANDLER.sendToServer(new BookofBeastsGUI2ButtonMessage(0, x, y, z));
 				BookofBeastsGUI2ButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		}));
+		this.addRenderableWidget(new Button(this.leftPos + 100, this.topPos + 220, 93, 20, new TextComponent("Previous Page"), e -> {
+			if (true) {
+				ProjectmodmakingMod.PACKET_HANDLER.sendToServer(new BookofBeastsGUI2ButtonMessage(1, x, y, z));
+				BookofBeastsGUI2ButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}));
 	}
