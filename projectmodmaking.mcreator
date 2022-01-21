@@ -158,7 +158,8 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "red_crab"
+      "registry_name": "red_crab",
+      "path": "~/Entities/Crabs"
     }
   ],
   "variable_elements": [],
