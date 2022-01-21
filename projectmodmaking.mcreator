@@ -186,6 +186,32 @@
       "locked_code": false,
       "registry_name": "green_crab",
       "path": "~/Entities/Crabs"
+    },
+    {
+      "name": "RawCrabLegPoison",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_crab_leg_poison",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "RawCrabLegs",
+      "type": "food",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_crab_legs",
+      "path": "~/Food"
     }
   ],
   "variable_elements": [],
@@ -194,6 +220,7 @@
     "en_us": {
       "item.projectmodmaking.bookof_beasts": "The Book of Beasts",
       "item.projectmodmaking.fire_chitin_armor_chestplate": "Fire Chitin Chestplate",
+      "item.projectmodmaking.raw_crab_legs": "Raw Crab Legs",
       "item.projectmodmaking.opal": "Opal",
       "item.projectmodmaking.green_crab_spawn_egg": "Green Crab Spawn Egg",
       "item.projectmodmaking.ant_larvae": "Ant Larvae",
@@ -271,6 +298,10 @@
       },
       {
         "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Food",
         "children": []
       }
     ]

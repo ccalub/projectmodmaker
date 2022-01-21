@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "raw_crab_legs",
+    "customModelName": "Normal",
+    "name": "Raw Crab Legs",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "Hurts to chew... try cooking?"
+    ],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 16,
+    "nutritionalValue": 1,
+    "saturation": 0.30000000000000004,
+    "eatingSpeed": 20,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": true,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "RawCrabLegPoison"
+    }
+  }
+}

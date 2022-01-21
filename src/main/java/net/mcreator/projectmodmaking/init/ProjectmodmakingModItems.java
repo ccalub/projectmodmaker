@@ -12,6 +12,7 @@ import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 
+import net.mcreator.projectmodmaking.item.RawCrabLegsItem;
 import net.mcreator.projectmodmaking.item.OpalItem;
 import net.mcreator.projectmodmaking.item.FireChitinItem;
 import net.mcreator.projectmodmaking.item.FireChitinArmorItem;
@@ -53,6 +54,7 @@ public class ProjectmodmakingModItems {
 			new Item.Properties().tab(ProjectmodmakingModTabs.TAB_PROJECT_MOD_MAKER_2)).setRegistryName("orange_crab_spawn_egg"));
 	public static final Item GREEN_CRAB = register(new SpawnEggItem(ProjectmodmakingModEntities.GREEN_CRAB, -3342439, -6711040,
 			new Item.Properties().tab(ProjectmodmakingModTabs.TAB_PROJECT_MOD_MAKER_2)).setRegistryName("green_crab_spawn_egg"));
+	public static final Item RAW_CRAB_LEGS = register(new RawCrabLegsItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
