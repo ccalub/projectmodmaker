@@ -12,7 +12,6 @@ import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 
-import net.mcreator.projectmodmaking.item.NightcrawlerItem;
 import net.mcreator.projectmodmaking.item.BookofBeastsItem;
 
 import java.util.List;
@@ -24,7 +23,6 @@ public class ProjectmodmakingModItems {
 	public static final Item EMBER_SNAIL = register(
 			new SpawnEggItem(ProjectmodmakingModEntities.EMBER_SNAIL, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
 					.setRegistryName("ember_snail_spawn_egg"));
-	public static final Item NIGHTCRAWLER = register(new NightcrawlerItem());
 	public static final Item BOOKOF_BEASTS = register(new BookofBeastsItem());
 	public static final Item TERRA_OWL = register(
 			new SpawnEggItem(ProjectmodmakingModEntities.TERRA_OWL, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
