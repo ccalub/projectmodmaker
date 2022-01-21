@@ -14,7 +14,8 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ember_snail"
+      "registry_name": "ember_snail",
+      "path": "~/Entities/Snails"
     },
     {
       "name": "TerraOwl",
@@ -176,7 +177,7 @@
     "en_us": {
       "item.projectmodmaking.ember_snail_spawn_egg": "Ember Snail Spawn Egg",
       "entity.projectmodmaking.ember_snail": "Ember Snail",
-      "item.projectmodmaking.bookof_beasts": "Bookof Beasts",
+      "item.projectmodmaking.bookof_beasts": "The Book of Beasts",
       "item.projectmodmaking.terra_owl_spawn_egg": "Terra Owl Spawn Egg",
       "entity.projectmodmaking.terra_owl": "Terra Owl",
       "item.projectmodmaking.nightcrawler": "Nightcrawler",
