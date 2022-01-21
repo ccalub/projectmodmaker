@@ -60,15 +60,6 @@
       "path": "~/Items"
     },
     {
-      "name": "Opal",
-      "type": "item",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "opal",
-      "path": "~/Items"
-    },
-    {
       "name": "AntLarvae",
       "type": "item",
       "sortid": 20,
@@ -239,7 +230,6 @@
       "item.projectmodmaking.bookof_beasts": "The Book of Beasts",
       "item.projectmodmaking.fire_chitin_armor_chestplate": "Fire Chitin Chestplate",
       "item.projectmodmaking.raw_crab_legs": "Raw Crab Legs",
-      "item.projectmodmaking.opal": "Opal",
       "item.projectmodmaking.green_crab_spawn_egg": "Green Crab Spawn Egg",
       "item.projectmodmaking.ant_larvae": "Ant Larvae",
       "item.projectmodmaking.red_crab_spawn_egg": "Red Crab Spawn Egg",

@@ -13,7 +13,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 
 import net.mcreator.projectmodmaking.item.RawCrabLegsItem;
-import net.mcreator.projectmodmaking.item.OpalItem;
 import net.mcreator.projectmodmaking.item.FireChitinItem;
 import net.mcreator.projectmodmaking.item.FireChitinArmorItem;
 import net.mcreator.projectmodmaking.item.FireAntLArvaeItem;
@@ -42,7 +41,6 @@ public class ProjectmodmakingModItems {
 	public static final Item CHITIN_ARMOR_CHESTPLATE = register(new ChitinArmorItem.Chestplate());
 	public static final Item CHITIN_ARMOR_LEGGINGS = register(new ChitinArmorItem.Leggings());
 	public static final Item CHITIN_ARMOR_BOOTS = register(new ChitinArmorItem.Boots());
-	public static final Item OPAL = register(new OpalItem());
 	public static final Item ANT_LARVAE = register(new AntLarvaeItem());
 	public static final Item FIRE_CHITIN = register(new FireChitinItem());
 	public static final Item FIRE_CHITIN_ARMOR_HELMET = register(new FireChitinArmorItem.Helmet());

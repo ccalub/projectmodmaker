@@ -32,6 +32,11 @@ public class BookOfBeastsGUIScreen extends AbstractContainerScreen<BookOfBeastsG
 		this.imageHeight = 250;
 	}
 
+	@Override
+	public boolean isPauseScreen() {
+		return true;
+	}
+
 	private static final ResourceLocation texture = new ResourceLocation("projectmodmaking:textures/book_of_beasts_gui.png");
 
 	@Override
@@ -53,7 +58,7 @@ public class BookOfBeastsGUIScreen extends AbstractContainerScreen<BookOfBeastsG
 		this.blit(ms, this.leftPos + -22, this.topPos + 165, 0, 0, 128, 128, 128, 128);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/wolf_pixel_art_2.png"));
-		this.blit(ms, this.leftPos + 292, this.topPos + 168, 0, 0, 128, 128, 128, 128);
+		this.blit(ms, this.leftPos + 300, this.topPos + 173, 0, 0, 128, 128, 128, 128);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("projectmodmaking:textures/deeeer.png"));
 		this.blit(ms, this.leftPos + 263, this.topPos + 157, 0, 0, 128, 128, 128, 128);

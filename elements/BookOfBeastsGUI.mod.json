@@ -8,7 +8,7 @@
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
-    "doesPauseGame": false,
+    "doesPauseGame": true,
     "components": [
       {
         "type": "label",
@@ -128,8 +128,8 @@
           "image": "wolf_pixel_art_2.png",
           "use1Xscale": true,
           "name": "wolf_pixel_art_2.png",
-          "x": 306,
-          "y": 163
+          "x": 314,
+          "y": 168
         }
       },
       {
