@@ -8,7 +8,7 @@
     "name": "Fire Chitin",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:ProjectModMaker2"
     },
     "stackSize": 16,
     "enchantability": 0,

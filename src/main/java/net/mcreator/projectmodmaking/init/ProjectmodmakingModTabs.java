@@ -12,12 +12,24 @@ import net.minecraft.world.item.CreativeModeTab;
 
 public class ProjectmodmakingModTabs {
 	public static CreativeModeTab TAB_PROJECT_MOD_MAKER;
+	public static CreativeModeTab TAB_PROJECT_MOD_MAKER_2;
 
 	public static void load() {
 		TAB_PROJECT_MOD_MAKER = new CreativeModeTab("tabproject_mod_maker") {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(ProjectmodmakingModItems.BOOKOF_BEASTS);
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return true;
+			}
+		}.setBackgroundSuffix("item_search.png");
+		TAB_PROJECT_MOD_MAKER_2 = new CreativeModeTab("tabproject_mod_maker_2") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(ProjectmodmakingModItems.ANT_LARVAE);
 			}
 
 			@OnlyIn(Dist.CLIENT)

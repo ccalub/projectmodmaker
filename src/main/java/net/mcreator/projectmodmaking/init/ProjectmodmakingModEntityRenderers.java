@@ -11,6 +11,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.projectmodmaking.client.renderer.TerraOwlRenderer;
 import net.mcreator.projectmodmaking.client.renderer.RedCrabRenderer;
+import net.mcreator.projectmodmaking.client.renderer.OrangeCrabRenderer;
+import net.mcreator.projectmodmaking.client.renderer.GreenCrabRenderer;
 import net.mcreator.projectmodmaking.client.renderer.EmberSnailRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -20,5 +22,7 @@ public class ProjectmodmakingModEntityRenderers {
 		event.registerEntityRenderer(ProjectmodmakingModEntities.EMBER_SNAIL, EmberSnailRenderer::new);
 		event.registerEntityRenderer(ProjectmodmakingModEntities.TERRA_OWL, TerraOwlRenderer::new);
 		event.registerEntityRenderer(ProjectmodmakingModEntities.RED_CRAB, RedCrabRenderer::new);
+		event.registerEntityRenderer(ProjectmodmakingModEntities.ORANGE_CRAB, OrangeCrabRenderer::new);
+		event.registerEntityRenderer(ProjectmodmakingModEntities.GREEN_CRAB, GreenCrabRenderer::new);
 	}
 }

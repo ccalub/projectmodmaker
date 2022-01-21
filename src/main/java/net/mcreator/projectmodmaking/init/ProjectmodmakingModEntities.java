@@ -16,6 +16,8 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.projectmodmaking.entity.TerraOwlEntity;
 import net.mcreator.projectmodmaking.entity.RedCrabEntity;
+import net.mcreator.projectmodmaking.entity.OrangeCrabEntity;
+import net.mcreator.projectmodmaking.entity.GreenCrabEntity;
 import net.mcreator.projectmodmaking.entity.EmberSnailEntity;
 
 import java.util.List;
@@ -33,6 +35,12 @@ public class ProjectmodmakingModEntities {
 	public static final EntityType<RedCrabEntity> RED_CRAB = register("red_crab",
 			EntityType.Builder.<RedCrabEntity>of(RedCrabEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(3).setCustomClientFactory(RedCrabEntity::new).sized(1.4f, 0.9f));
+	public static final EntityType<OrangeCrabEntity> ORANGE_CRAB = register("orange_crab",
+			EntityType.Builder.<OrangeCrabEntity>of(OrangeCrabEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(OrangeCrabEntity::new).sized(1.4f, 0.9f));
+	public static final EntityType<GreenCrabEntity> GREEN_CRAB = register("green_crab",
+			EntityType.Builder.<GreenCrabEntity>of(GreenCrabEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GreenCrabEntity::new).sized(1.4f, 0.9f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		EntityType<T> entityType = (EntityType<T>) entityTypeBuilder.build(registryname).setRegistryName(registryname);
@@ -51,6 +59,8 @@ public class ProjectmodmakingModEntities {
 			EmberSnailEntity.init();
 			TerraOwlEntity.init();
 			RedCrabEntity.init();
+			OrangeCrabEntity.init();
+			GreenCrabEntity.init();
 		});
 	}
 
@@ -59,5 +69,7 @@ public class ProjectmodmakingModEntities {
 		event.put(EMBER_SNAIL, EmberSnailEntity.createAttributes().build());
 		event.put(TERRA_OWL, TerraOwlEntity.createAttributes().build());
 		event.put(RED_CRAB, RedCrabEntity.createAttributes().build());
+		event.put(ORANGE_CRAB, OrangeCrabEntity.createAttributes().build());
+		event.put(GREEN_CRAB, GreenCrabEntity.createAttributes().build());
 	}
 }

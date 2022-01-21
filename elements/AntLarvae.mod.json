@@ -8,7 +8,7 @@
     "name": "Ant Larvae",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:ProjectModMaker2"
     },
     "stackSize": 64,
     "enchantability": 0,

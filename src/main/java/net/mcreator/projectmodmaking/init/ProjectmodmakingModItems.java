@@ -48,7 +48,11 @@ public class ProjectmodmakingModItems {
 	public static final Item FIRE_CHITIN_ARMOR_BOOTS = register(new FireChitinArmorItem.Boots());
 	public static final Item FIRE_ANT_L_ARVAE = register(new FireAntLArvaeItem());
 	public static final Item RED_CRAB = register(new SpawnEggItem(ProjectmodmakingModEntities.RED_CRAB, -4503737, -6544605,
-			new Item.Properties().tab(ProjectmodmakingModTabs.TAB_PROJECT_MOD_MAKER)).setRegistryName("red_crab_spawn_egg"));
+			new Item.Properties().tab(ProjectmodmakingModTabs.TAB_PROJECT_MOD_MAKER_2)).setRegistryName("red_crab_spawn_egg"));
+	public static final Item ORANGE_CRAB = register(new SpawnEggItem(ProjectmodmakingModEntities.ORANGE_CRAB, -26266, -39424,
+			new Item.Properties().tab(ProjectmodmakingModTabs.TAB_PROJECT_MOD_MAKER_2)).setRegistryName("orange_crab_spawn_egg"));
+	public static final Item GREEN_CRAB = register(new SpawnEggItem(ProjectmodmakingModEntities.GREEN_CRAB, -3342439, -6711040,
+			new Item.Properties().tab(ProjectmodmakingModTabs.TAB_PROJECT_MOD_MAKER_2)).setRegistryName("green_crab_spawn_egg"));
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
