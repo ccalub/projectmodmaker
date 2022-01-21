@@ -29,6 +29,9 @@ public class ProjectmodmakingModItems {
 	public static final Item TERRA_OWL = register(
 			new SpawnEggItem(ProjectmodmakingModEntities.TERRA_OWL, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
 					.setRegistryName("terra_owl_spawn_egg"));
+	public static final Item TOAD = register(
+			new SpawnEggItem(ProjectmodmakingModEntities.TOAD, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC))
+					.setRegistryName("toad_spawn_egg"));
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

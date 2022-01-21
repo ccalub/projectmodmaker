@@ -13,6 +13,7 @@ import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 
 import net.mcreator.projectmodmaking.world.inventory.BookofBeastsGUIMenu;
+import net.mcreator.projectmodmaking.world.inventory.BookofBeastsGUI3Menu;
 import net.mcreator.projectmodmaking.world.inventory.BookofBeastsGUI2Menu;
 
 import java.util.List;
@@ -25,6 +26,8 @@ public class ProjectmodmakingModMenus {
 			(id, inv, extraData) -> new BookofBeastsGUIMenu(id, inv, extraData));
 	public static final MenuType<BookofBeastsGUI2Menu> BOOKOF_BEASTS_GUI_2 = register("bookof_beasts_gui_2",
 			(id, inv, extraData) -> new BookofBeastsGUI2Menu(id, inv, extraData));
+	public static final MenuType<BookofBeastsGUI3Menu> BOOKOF_BEASTS_GUI_3 = register("bookof_beasts_gui_3",
+			(id, inv, extraData) -> new BookofBeastsGUI3Menu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);
