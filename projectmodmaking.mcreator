@@ -221,6 +221,15 @@
       "locked_code": false,
       "registry_name": "critter_catalogue",
       "path": "~/Items/Critter Catalogue"
+    },
+    {
+      "name": "Fern",
+      "type": "plant",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fern",
+      "path": "~/Plants"
     }
   ],
   "variable_elements": [],
@@ -233,6 +242,7 @@
       "item.projectmodmaking.green_crab_spawn_egg": "Green Crab Spawn Egg",
       "item.projectmodmaking.ant_larvae": "Ant Larvae",
       "item.projectmodmaking.red_crab_spawn_egg": "Red Crab Spawn Egg",
+      "block.projectmodmaking.fern": "Fern",
       "itemGroup.tabproject_mod_maker": "Beasts",
       "item.projectmodmaking.fire_chitin": "Fire Chitin",
       "entity.projectmodmaking.terra_owl": "Terra Owl",
@@ -316,6 +326,10 @@
       },
       {
         "name": "Food",
+        "children": []
+      },
+      {
+        "name": "Plants",
         "children": []
       }
     ]

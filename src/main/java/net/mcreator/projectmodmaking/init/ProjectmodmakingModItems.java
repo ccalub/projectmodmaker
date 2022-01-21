@@ -8,9 +8,11 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.projectmodmaking.item.RawCrabLegsItem;
 import net.mcreator.projectmodmaking.item.FireChitinItem;
@@ -57,10 +59,15 @@ public class ProjectmodmakingModItems {
 	public static final Item RAW_CRAB_LEGS = register(new RawCrabLegsItem());
 	public static final Item COOKED_CRAB_LEGS = register(new CookedCrabLegsItem());
 	public static final Item CRITTER_CATALOGUE = register(new CritterCatalogueItem());
+	public static final Item FERN = register(ProjectmodmakingModBlocks.FERN, CreativeModeTab.TAB_DECORATIONS);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
 		return item;
+	}
+
+	private static Item register(Block block, CreativeModeTab tab) {
+		return register(new BlockItem(block, new Item.Properties().tab(tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@SubscribeEvent
