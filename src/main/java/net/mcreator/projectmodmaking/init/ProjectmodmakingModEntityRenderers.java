@@ -9,7 +9,6 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.mcreator.projectmodmaking.client.renderer.ToadRenderer;
 import net.mcreator.projectmodmaking.client.renderer.TerraOwlRenderer;
 import net.mcreator.projectmodmaking.client.renderer.EmberSnailRenderer;
 
@@ -19,6 +18,5 @@ public class ProjectmodmakingModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(ProjectmodmakingModEntities.EMBER_SNAIL, EmberSnailRenderer::new);
 		event.registerEntityRenderer(ProjectmodmakingModEntities.TERRA_OWL, TerraOwlRenderer::new);
-		event.registerEntityRenderer(ProjectmodmakingModEntities.TOAD, ToadRenderer::new);
 	}
 }

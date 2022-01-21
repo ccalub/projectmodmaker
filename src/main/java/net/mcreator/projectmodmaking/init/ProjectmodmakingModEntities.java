@@ -14,7 +14,6 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
-import net.mcreator.projectmodmaking.entity.ToadEntity;
 import net.mcreator.projectmodmaking.entity.TerraOwlEntity;
 import net.mcreator.projectmodmaking.entity.EmberSnailEntity;
 
@@ -30,8 +29,6 @@ public class ProjectmodmakingModEntities {
 	public static final EntityType<TerraOwlEntity> TERRA_OWL = register("terra_owl",
 			EntityType.Builder.<TerraOwlEntity>of(TerraOwlEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TerraOwlEntity::new).sized(0.4f, 0.7f));
-	public static final EntityType<ToadEntity> TOAD = register("toad", EntityType.Builder.<ToadEntity>of(ToadEntity::new, MobCategory.MONSTER)
-			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ToadEntity::new).sized(1f, 1f));
 
 	private static <T extends Entity> EntityType<T> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		EntityType<T> entityType = (EntityType<T>) entityTypeBuilder.build(registryname).setRegistryName(registryname);
@@ -49,7 +46,6 @@ public class ProjectmodmakingModEntities {
 		event.enqueueWork(() -> {
 			EmberSnailEntity.init();
 			TerraOwlEntity.init();
-			ToadEntity.init();
 		});
 	}
 
@@ -57,6 +53,5 @@ public class ProjectmodmakingModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(EMBER_SNAIL, EmberSnailEntity.createAttributes().build());
 		event.put(TERRA_OWL, TerraOwlEntity.createAttributes().build());
-		event.put(TOAD, ToadEntity.createAttributes().build());
 	}
 }
