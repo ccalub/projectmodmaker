@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "untitled_01-20-2022_01-52-35",
     "customModelName": "Normal",
-    "name": "Bookof Beasts",
+    "name": "The Book of Beasts",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "TOOLS"
@@ -32,6 +32,9 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
+      "name": "OpenBookofBeastsP1"
+    },
+    "onRightClickedOnBlock": {
       "name": "OpenBookofBeastsP1"
     },
     "hasDispenseBehavior": false
