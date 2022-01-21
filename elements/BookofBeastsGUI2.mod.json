@@ -13,15 +13,15 @@
       {
         "type": "button",
         "data": {
-          "text": "Previous Page",
+          "text": "Next Page",
           "onClick": {
-            "name": "OpenBookofBeastsP1"
+            "name": "OpenBookofBeastsGUI3"
           },
           "width": 93,
           "height": 20,
-          "name": "Previous Page",
-          "x": 48,
-          "y": 199
+          "name": "Next Page",
+          "x": 216,
+          "y": 211
         }
       },
       {
@@ -33,80 +33,143 @@
             "falpha": 0.0
           },
           "name": "[Terra Owls]",
-          "x": 59,
-          "y": 5
+          "x": 176,
+          "y": 6
         }
       },
       {
         "type": "label",
         "data": {
-          "text": "The Terra Owl can be tamed ",
+          "text": "Terra Owls are passive creatures that can be easily be found in any ",
           "color": {
             "value": -16777216,
             "falpha": 0.0
           },
-          "name": "The Terra Owl can be tamed ",
-          "x": 32,
-          "y": 88
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "by being fed a Nightcrawler.",
-          "color": {
-            "value": -16777216,
-            "falpha": 0.0
-          },
-          "name": "by being fed a Nightcrawler.",
-          "x": 32,
-          "y": 103
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Nightcrawlers can be found",
-          "color": {
-            "value": -16777216,
-            "falpha": 0.0
-          },
-          "name": "Nightcrawlers can be found",
-          "x": 33,
-          "y": 119
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "when digging up large patches of dirt.",
-          "color": {
-            "value": -16777216,
-            "falpha": 0.0
-          },
-          "name": "when digging up large patches of dirt.",
+          "name": "Terra Owls are passive creatures that can be easily be found in any ",
           "x": 29,
-          "y": 133
+          "y": 21
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": " overworld forest biome.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": " overworld forest biome.",
+          "x": 24,
+          "y": 34
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "They are nimble creatures that are able to fly ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "They are nimble creatures that are able to fly ",
+          "x": 149,
+          "y": 34
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "without taking any fall damage when they land or fall.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "without taking any fall damage when they land or fall.",
+          "x": 32,
+          "y": 47
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Terra Owls can ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Terra Owls can ",
+          "x": 315,
+          "y": 47
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "be tamed by being fed a \"Nightcrawler\". Nightcrawlers can be ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "be tamed by being fed a \"Nightcrawler\". Nightcrawlers can be ",
+          "x": 50,
+          "y": 59
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "obtained when a player digs up large amounts of dirt within an area.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "obtained when a player digs up large amounts of dirt within an area.",
+          "x": 37,
+          "y": 72
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "output-onlinepngtools_81.png",
-          "use1Xscale": true,
-          "name": "output-onlinepngtools_81.png",
-          "x": 60,
-          "y": -26
+          "image": "leaf_2.png",
+          "use1Xscale": false,
+          "name": "leaf_2.png",
+          "x": 54,
+          "y": 85
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "output-onlinepngtools.png",
-          "use1Xscale": true,
-          "name": "output-onlinepngtools.png",
-          "x": -37,
-          "y": 92
+          "image": "leaf_1.png",
+          "use1Xscale": false,
+          "name": "leaf_1.png",
+          "x": 251,
+          "y": 87
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Previous Page",
+          "onClick": {
+            "name": "OpenBookofBeastsP1"
+          },
+          "width": 93,
+          "height": 20,
+          "name": "Previous Page",
+          "x": 114,
+          "y": 211
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "owlowlowl.png",
+          "use1Xscale": false,
+          "name": "owlowlowl.png",
+          "x": 144,
+          "y": 88
         }
       }
     ],
