@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Orange Crab",
     "mobLabel": "",
-    "mobModelName": "Spider",
+    "mobModelName": "Modelcustom_model",
     "mobModelTexture": "orange_crab_texture.png",
     "mobModelGlowTexture": "",
     "modelWidth": 1.4,
@@ -77,7 +77,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": ""
+      "value": "CUSTOM:RawCrabLegs"
     },
     "livingSound": {
       "value": ""

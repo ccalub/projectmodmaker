@@ -3,14 +3,13 @@ package net.mcreator.projectmodmaking.client.renderer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.SpiderModel;
 
 import net.mcreator.projectmodmaking.entity.GreenCrabEntity;
+import net.mcreator.projectmodmaking.client.model.Modelcustom_model;
 
-public class GreenCrabRenderer extends MobRenderer<GreenCrabEntity, SpiderModel<GreenCrabEntity>> {
+public class GreenCrabRenderer extends MobRenderer<GreenCrabEntity, Modelcustom_model<GreenCrabEntity>> {
 	public GreenCrabRenderer(EntityRendererProvider.Context context) {
-		super(context, new SpiderModel(context.bakeLayer(ModelLayers.SPIDER)), 0.5f);
+		super(context, new Modelcustom_model(context.bakeLayer(Modelcustom_model.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

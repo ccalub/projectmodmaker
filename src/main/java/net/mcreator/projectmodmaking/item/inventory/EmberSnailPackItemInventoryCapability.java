@@ -53,7 +53,7 @@ public class EmberSnailPackItemInventoryCapability implements ICapabilitySeriali
 	}
 
 	private ItemStackHandler createItemHandler() {
-		return new ItemStackHandler(16) {
+		return new ItemStackHandler(17) {
 			@Override
 			public int getSlotLimit(int slot) {
 				return 64;

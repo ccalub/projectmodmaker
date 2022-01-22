@@ -29,7 +29,7 @@
     ],
     "hasGlow": false,
     "guiBoundTo": "EmberSnailPack",
-    "inventorySize": 16,
+    "inventorySize": 17,
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
       "name": "EmberSnailPackItemRightClickedInAir"
