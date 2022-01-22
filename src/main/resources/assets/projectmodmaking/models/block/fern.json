@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "projectmodmaking:blocks/fern",
-    "particle": "projectmodmaking:blocks/fern"
-  }
-}

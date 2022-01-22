@@ -223,24 +223,6 @@
       "path": "~/Items/Critter Catalogue"
     },
     {
-      "name": "Fern",
-      "type": "plant",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fern",
-      "path": "~/Plants"
-    },
-    {
-      "name": "Buttercup",
-      "type": "plant",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "buttercup",
-      "path": "~/Plants"
-    },
-    {
       "name": "ChitinChestplate",
       "type": "recipe",
       "sortid": 35,
@@ -332,7 +314,6 @@
       "item.projectmodmaking.green_crab_spawn_egg": "Green Crab Spawn Egg",
       "item.projectmodmaking.ant_larvae": "Ant Larvae",
       "item.projectmodmaking.red_crab_spawn_egg": "Red Crab Spawn Egg",
-      "block.projectmodmaking.fern": "Fern",
       "itemGroup.tabproject_mod_maker": "Beasts",
       "item.projectmodmaking.fire_chitin": "Fire Chitin",
       "entity.projectmodmaking.terra_owl": "Terra Owl",
@@ -352,7 +333,6 @@
       "item.projectmodmaking.chitin_armor_leggings": "Chitin Leggings",
       "entity.projectmodmaking.orange_crab": "Orange Crab",
       "entity.projectmodmaking.green_crab": "Green Crab",
-      "block.projectmodmaking.buttercup": "Buttercup",
       "entity.projectmodmaking.red_crab": "Red Crab",
       "item.projectmodmaking.fire_chitin_armor_leggings": "Fire Chitin Leggings",
       "item.projectmodmaking.chitin": "Chitin"
