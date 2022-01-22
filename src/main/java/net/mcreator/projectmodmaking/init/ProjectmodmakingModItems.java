@@ -8,10 +8,14 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.projectmodmaking.item.StrawberrySeedsItem;
+import net.mcreator.projectmodmaking.item.StrawberryItem;
 import net.mcreator.projectmodmaking.item.RawCrabLegsItem;
 import net.mcreator.projectmodmaking.item.FireChitinItem;
 import net.mcreator.projectmodmaking.item.FireChitinArmorItem;
@@ -61,10 +65,19 @@ public class ProjectmodmakingModItems {
 	public static final Item CRITTER_CATALOGUE = register(new CritterCatalogueItem());
 	public static final Item EMBER_SNAIL_SHELL = register(new EmberSnailShellItem());
 	public static final Item EMBER_SNAIL_PACK_ITEM = register(new EmberSnailPackItemItem());
+	public static final Item STRAWBERRY_BUSH = register(ProjectmodmakingModBlocks.STRAWBERRY_BUSH, null);
+	public static final Item STRAWBERRY_BUSH_2 = register(ProjectmodmakingModBlocks.STRAWBERRY_BUSH_2, null);
+	public static final Item STRAWBERRY_BUSH_3 = register(ProjectmodmakingModBlocks.STRAWBERRY_BUSH_3, null);
+	public static final Item STRAWBERRY = register(new StrawberryItem());
+	public static final Item STRAWBERRY_SEEDS = register(new StrawberrySeedsItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
 		return item;
+	}
+
+	private static Item register(Block block, CreativeModeTab tab) {
+		return register(new BlockItem(block, new Item.Properties().tab(tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@SubscribeEvent
