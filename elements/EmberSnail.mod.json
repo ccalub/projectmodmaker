@@ -77,7 +77,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": ""
+      "value": "CUSTOM:EmberSnailShell"
     },
     "livingSound": {
       "value": "entity.slime.squish"

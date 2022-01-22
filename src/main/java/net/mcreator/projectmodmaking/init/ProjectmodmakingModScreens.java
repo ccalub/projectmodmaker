@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.mcreator.projectmodmaking.client.gui.EmberSnailPackScreen;
 import net.mcreator.projectmodmaking.client.gui.BookOfBeastsGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -19,6 +20,7 @@ public class ProjectmodmakingModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(ProjectmodmakingModMenus.BOOK_OF_BEASTS_GUI, BookOfBeastsGUIScreen::new);
+			MenuScreens.register(ProjectmodmakingModMenus.EMBER_SNAIL_PACK, EmberSnailPackScreen::new);
 		});
 	}
 }

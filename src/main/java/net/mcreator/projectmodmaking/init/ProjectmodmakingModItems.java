@@ -16,6 +16,8 @@ import net.mcreator.projectmodmaking.item.RawCrabLegsItem;
 import net.mcreator.projectmodmaking.item.FireChitinItem;
 import net.mcreator.projectmodmaking.item.FireChitinArmorItem;
 import net.mcreator.projectmodmaking.item.FireAntLArvaeItem;
+import net.mcreator.projectmodmaking.item.EmberSnailShellItem;
+import net.mcreator.projectmodmaking.item.EmberSnailPackItemItem;
 import net.mcreator.projectmodmaking.item.CritterCatalogueItem;
 import net.mcreator.projectmodmaking.item.CookedCrabLegsItem;
 import net.mcreator.projectmodmaking.item.ChitinItem;
@@ -57,6 +59,8 @@ public class ProjectmodmakingModItems {
 	public static final Item RAW_CRAB_LEGS = register(new RawCrabLegsItem());
 	public static final Item COOKED_CRAB_LEGS = register(new CookedCrabLegsItem());
 	public static final Item CRITTER_CATALOGUE = register(new CritterCatalogueItem());
+	public static final Item EMBER_SNAIL_SHELL = register(new EmberSnailShellItem());
+	public static final Item EMBER_SNAIL_PACK_ITEM = register(new EmberSnailPackItemItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
