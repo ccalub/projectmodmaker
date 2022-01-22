@@ -12,9 +12,10 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.projectmodmaking.block.StrawberryBushBlock;
-import net.mcreator.projectmodmaking.block.StrawberryBush3Block;
-import net.mcreator.projectmodmaking.block.StrawberryBush2Block;
+import net.mcreator.projectmodmaking.block.Trawberrybush3Block;
+import net.mcreator.projectmodmaking.block.Strawberrybush4Block;
+import net.mcreator.projectmodmaking.block.Strawberrybush2Block;
+import net.mcreator.projectmodmaking.block.Strawberrybush1Block;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -22,9 +23,10 @@ import java.util.ArrayList;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ProjectmodmakingModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
-	public static final Block STRAWBERRY_BUSH = register(new StrawberryBushBlock());
-	public static final Block STRAWBERRY_BUSH_2 = register(new StrawberryBush2Block());
-	public static final Block STRAWBERRY_BUSH_3 = register(new StrawberryBush3Block());
+	public static final Block STRAWBERRYBUSH_1 = register(new Strawberrybush1Block());
+	public static final Block STRAWBERRYBUSH_2 = register(new Strawberrybush2Block());
+	public static final Block TRAWBERRYBUSH_3 = register(new Trawberrybush3Block());
+	public static final Block STRAWBERRYBUSH_4 = register(new Strawberrybush4Block());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
@@ -40,9 +42,10 @@ public class ProjectmodmakingModBlocks {
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
-			StrawberryBushBlock.registerRenderLayer();
-			StrawberryBush2Block.registerRenderLayer();
-			StrawberryBush3Block.registerRenderLayer();
+			Strawberrybush1Block.registerRenderLayer();
+			Strawberrybush2Block.registerRenderLayer();
+			Trawberrybush3Block.registerRenderLayer();
+			Strawberrybush4Block.registerRenderLayer();
 		}
 	}
 }

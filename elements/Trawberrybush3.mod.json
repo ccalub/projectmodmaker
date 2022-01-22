@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "strawberrysprout2",
+    "texture": "strawberrysprout3",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -23,19 +23,19 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 3.0,
+        "mx": 0.0,
         "my": 0.0,
-        "mz": 3.0,
-        "Mx": 13.0,
-        "My": 11.0,
-        "Mz": 13.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Strawberry Bush 2",
+    "name": "Stawberrybush 3",
     "specialInfo": [],
-    "hardness": 0.4,
-    "resistance": 2.0,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": -1,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -121,9 +121,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "StrawberryBush3P"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

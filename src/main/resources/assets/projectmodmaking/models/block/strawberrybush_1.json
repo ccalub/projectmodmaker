@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "projectmodmaking:blocks/strawberrysprout1",
+    "particle": "projectmodmaking:blocks/strawberrysprout1"
+  }
+}
