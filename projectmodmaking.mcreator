@@ -239,6 +239,42 @@
       "locked_code": false,
       "registry_name": "buttercup",
       "path": "~/Plants"
+    },
+    {
+      "name": "ChitinChestplate",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chitin_chestplate",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ChitinHelmet",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chitin_helmet",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ChitinLeggings",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chitin_leggings",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ChitinBoots",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chitin_boots",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],

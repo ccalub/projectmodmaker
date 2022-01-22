@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "projectmodmaking:chitin"
+    },
+    "2": {
+      "item": "projectmodmaking:chitin"
+    },
+    "3": {
+      "item": "projectmodmaking:chitin"
+    },
+    "5": {
+      "item": "projectmodmaking:chitin"
+    }
+  },
+  "result": {
+    "item": "projectmodmaking:chitin_armor_boots",
+    "count": 1
+  }
+}

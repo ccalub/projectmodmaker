@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "projectmodmaking:chitin"
+    },
+    "2": {
+      "item": "projectmodmaking:chitin"
+    },
+    "3": {
+      "item": "projectmodmaking:chitin"
+    },
+    "4": {
+      "item": "projectmodmaking:chitin"
+    },
+    "5": {
+      "item": "projectmodmaking:chitin"
+    },
+    "6": {
+      "item": "projectmodmaking:chitin"
+    },
+    "7": {
+      "item": "projectmodmaking:chitin"
+    },
+    "8": {
+      "item": "projectmodmaking:chitin"
+    }
+  },
+  "result": {
+    "item": "projectmodmaking:chitin_armor_chestplate",
+    "count": 1
+  }
+}
