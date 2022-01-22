@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "projectmodmaking:fire_chitin"
+    },
+    "1": {
+      "item": "projectmodmaking:fire_chitin"
+    },
+    "2": {
+      "item": "projectmodmaking:fire_chitin"
+    },
+    "3": {
+      "item": "projectmodmaking:fire_chitin"
+    },
+    "5": {
+      "item": "projectmodmaking:fire_chitin"
+    }
+  },
+  "result": {
+    "item": "projectmodmaking:fire_chitin_armor_helmet",
+    "count": 1
+  }
+}

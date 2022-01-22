@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:FireChitin"
+      },
+      {
+        "value": "CUSTOM:FireChitin"
+      },
+      {
+        "value": "CUSTOM:FireChitin"
+      },
+      {
+        "value": "CUSTOM:FireChitin"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FireChitin"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FireChitinArmor.helmet"
+    },
+    "name": "fire_chitin_helmet",
+    "namespace": "mod"
+  }
+}

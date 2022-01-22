@@ -275,6 +275,51 @@
       "locked_code": false,
       "registry_name": "chitin_boots",
       "path": "~/Recipes"
+    },
+    {
+      "name": "FireChitinHelmet",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_chitin_helmet",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FireChitinChesstplate",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_chitin_chesstplate",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FireChitinLeggings",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_chitin_leggings",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FireChitinBoots",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_chitin_boots",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SmeltCrabLeg",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt_crab_leg",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
